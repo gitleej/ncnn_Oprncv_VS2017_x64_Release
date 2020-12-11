@@ -1,0 +1,1305 @@
+﻿  Generating source batchnorm_x86_avx2.h
+  Generating source batchnorm_x86_avx2.cpp
+  Generating source bias_x86_avx2.h
+  Generating source bias_x86_avx2.cpp
+  Generating source concat_x86_avx2.h
+  Generating source concat_x86_avx2.cpp
+  Generating source convolution_x86_avx2.h
+  Generating source convolution_x86_avx2.cpp
+  Generating source crop_x86_avx2.h
+  Generating source crop_x86_avx2.cpp
+  Generating source dropout_x86_avx2.h
+  Generating source dropout_x86_avx2.cpp
+  Generating source eltwise_x86_avx2.h
+  Generating source eltwise_x86_avx2.cpp
+  Generating source flatten_x86_avx2.h
+  Generating source flatten_x86_avx2.cpp
+  Generating source innerproduct_x86_avx2.h
+  Generating source innerproduct_x86_avx2.cpp
+  Generating source lrn_x86_avx2.h
+  Generating source lrn_x86_avx2.cpp
+  Generating source pooling_x86_avx2.h
+  Generating source pooling_x86_avx2.cpp
+  Generating source prelu_x86_avx2.h
+  Generating source prelu_x86_avx2.cpp
+  Generating source relu_x86_avx2.h
+  Generating source relu_x86_avx2.cpp
+  Generating source reshape_x86_avx2.h
+  Generating source reshape_x86_avx2.cpp
+  Generating source scale_x86_avx2.h
+  Generating source scale_x86_avx2.cpp
+  Generating source sigmoid_x86_avx2.h
+  Generating source sigmoid_x86_avx2.cpp
+  Generating source slice_x86_avx2.h
+  Generating source slice_x86_avx2.cpp
+  Generating source tanh_x86_avx2.h
+  Generating source tanh_x86_avx2.cpp
+  Generating source lstm_x86_avx2.h
+  Generating source lstm_x86_avx2.cpp
+  Generating source binaryop_x86_avx2.h
+  Generating source binaryop_x86_avx2.cpp
+  Generating source convolutiondepthwise_x86_avx2.h
+  Generating source convolutiondepthwise_x86_avx2.cpp
+  Generating source padding_x86_avx2.h
+  Generating source padding_x86_avx2.cpp
+  Generating source clip_x86_avx2.h
+  Generating source clip_x86_avx2.cpp
+  Generating source yolov3detectionoutput_x86_avx2.h
+  Generating source yolov3detectionoutput_x86_avx2.cpp
+  Generating source roialign_x86_avx2.h
+  Generating source roialign_x86_avx2.cpp
+  Generating source packing_x86_avx2.h
+  Generating source packing_x86_avx2.cpp
+  Generating source cast_x86_avx2.h
+  Generating source cast_x86_avx2.cpp
+  Generating source hardsigmoid_x86_avx2.h
+  Generating source hardsigmoid_x86_avx2.cpp
+  Generating source hardswish_x86_avx2.h
+  Generating source hardswish_x86_avx2.cpp
+  Generating source mish_x86_avx2.h
+  Generating source mish_x86_avx2.cpp
+  Generating source swish_x86_avx2.h
+  Generating source swish_x86_avx2.cpp
+  Building Custom Rule F:/pytorch2ncnn/ncnn/src/CMakeLists.txt
+  CMake does not need to re-run because F:/pytorch2ncnn/ncnn/build_cmakegui/src/CMakeFiles/generate.stamp is up-to-date.
+cl : 命令行 warning D9002: 忽略未知选项“/arch:SSE2”
+  allocator.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(473): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(528): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(530): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(530): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(645): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(645): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(768): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(770): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(770): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(780): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(891): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(891): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(986): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(1051): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(1053): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(1053): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(1343): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(1345): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(1345): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\allocator.cpp(1352): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  benchmark.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  blob.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  c_api.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  command.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\command.cpp(304): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\command.cpp(305): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\command.cpp(327): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\command.cpp(328): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\command.cpp(432): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\command.cpp(433): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\command.cpp(455): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\command.cpp(456): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\command.cpp(633): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\command.cpp(634): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\command.cpp(1578): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  cpu.cpp
+  datareader.cpp
+  gpu.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\gpu.cpp(545): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\gpu.cpp(547): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\gpu.cpp(1220): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\gpu.cpp(1554): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\gpu.cpp(1554): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\gpu.cpp(1565): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\gpu.cpp(1945): warning C4244: “=”: 从“VkDeviceSize”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\gpu.cpp(1957): warning C4244: “return”: 从“double”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\gpu.cpp(1970): warning C4244: “return”: 从“VkDeviceSize”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\gpu.cpp(2175): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  layer.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(21): warning C4250: “ncnn::AbsVal_final”: 通过域控制继承“ncnn::AbsVal_vulkan::ncnn::AbsVal_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/absval_vulkan.h(32): note: 参见“ncnn::AbsVal_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(44): warning C4250: “ncnn::BatchNorm_final”: 通过域控制继承“ncnn::BatchNorm_vulkan::ncnn::BatchNorm_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/batchnorm_vulkan.h(34): note: 参见“ncnn::BatchNorm_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(44): warning C4250: “ncnn::BatchNorm_final”: 通过域控制继承“ncnn::BatchNorm_x86::ncnn::BatchNorm_x86::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/batchnorm_x86.h(27): note: 参见“ncnn::BatchNorm_x86::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(44): warning C4250: “ncnn::BatchNorm_final”: 通过域控制继承“ncnn::BatchNorm_vulkan::ncnn::BatchNorm_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/batchnorm_vulkan.h(30): note: 参见“ncnn::BatchNorm_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(67): warning C4250: “ncnn::BatchNorm_final_avx2”: 通过域控制继承“ncnn::BatchNorm_vulkan::ncnn::BatchNorm_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/batchnorm_vulkan.h(34): note: 参见“ncnn::BatchNorm_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(67): warning C4250: “ncnn::BatchNorm_final_avx2”: 通过域控制继承“ncnn::BatchNorm_x86_avx2::ncnn::BatchNorm_x86_avx2::forward_inplace”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/batchnorm_x86_avx2.h(27): note: 参见“ncnn::BatchNorm_x86_avx2::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(67): warning C4250: “ncnn::BatchNorm_final_avx2”: 通过域控制继承“ncnn::BatchNorm_vulkan::ncnn::BatchNorm_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/batchnorm_vulkan.h(30): note: 参见“ncnn::BatchNorm_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(87): warning C4250: “ncnn::Bias_final”: 通过域控制继承“ncnn::Bias_x86::ncnn::Bias_x86::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/bias_x86.h(25): note: 参见“ncnn::Bias_x86::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(107): warning C4250: “ncnn::Bias_final_avx2”: 通过域控制继承“ncnn::Bias_x86_avx2::ncnn::Bias_x86_avx2::forward_inplace”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/bias_x86_avx2.h(25): note: 参见“ncnn::Bias_x86_avx2::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(147): warning C4250: “ncnn::Concat_final”: 通过域控制继承“ncnn::Concat_vulkan::ncnn::Concat_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/concat_vulkan.h(32): note: 参见“ncnn::Concat_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(147): warning C4250: “ncnn::Concat_final”: 通过域控制继承“ncnn::Concat_x86::ncnn::Concat_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/concat_x86.h(27): note: 参见“ncnn::Concat_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(170): warning C4250: “ncnn::Concat_final_avx2”: 通过域控制继承“ncnn::Concat_vulkan::ncnn::Concat_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/concat_vulkan.h(32): note: 参见“ncnn::Concat_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(170): warning C4250: “ncnn::Concat_final_avx2”: 通过域控制继承“ncnn::Concat_x86_avx2::ncnn::Concat_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/concat_x86_avx2.h(27): note: 参见“ncnn::Concat_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(193): warning C4250: “ncnn::Convolution_final”: 通过域控制继承“ncnn::Convolution_vulkan::ncnn::Convolution_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/convolution_vulkan.h(34): note: 参见“ncnn::Convolution_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(193): warning C4250: “ncnn::Convolution_final”: 通过域控制继承“ncnn::Convolution_x86::ncnn::Convolution_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/convolution_x86.h(30): note: 参见“ncnn::Convolution_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(193): warning C4250: “ncnn::Convolution_final”: 通过域控制继承“ncnn::Convolution_vulkan::ncnn::Convolution_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/convolution_vulkan.h(30): note: 参见“ncnn::Convolution_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(216): warning C4250: “ncnn::Convolution_final_avx2”: 通过域控制继承“ncnn::Convolution_vulkan::ncnn::Convolution_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/convolution_vulkan.h(34): note: 参见“ncnn::Convolution_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(216): warning C4250: “ncnn::Convolution_final_avx2”: 通过域控制继承“ncnn::Convolution_x86_avx2::ncnn::Convolution_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/convolution_x86_avx2.h(30): note: 参见“ncnn::Convolution_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(216): warning C4250: “ncnn::Convolution_final_avx2”: 通过域控制继承“ncnn::Convolution_vulkan::ncnn::Convolution_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/convolution_vulkan.h(30): note: 参见“ncnn::Convolution_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(239): warning C4250: “ncnn::Crop_final”: 通过域控制继承“ncnn::Crop_vulkan::ncnn::Crop_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/crop_vulkan.h(35): note: 参见“ncnn::Crop_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(239): warning C4250: “ncnn::Crop_final”: 通过域控制继承“ncnn::Crop_x86::ncnn::Crop_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/crop_x86.h(27): note: 参见“ncnn::Crop_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(262): warning C4250: “ncnn::Crop_final_avx2”: 通过域控制继承“ncnn::Crop_vulkan::ncnn::Crop_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/crop_vulkan.h(35): note: 参见“ncnn::Crop_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(262): warning C4250: “ncnn::Crop_final_avx2”: 通过域控制继承“ncnn::Crop_x86_avx2::ncnn::Crop_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/crop_x86_avx2.h(27): note: 参见“ncnn::Crop_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(282): warning C4250: “ncnn::Deconvolution_final”: 通过域控制继承“ncnn::Deconvolution_vulkan::ncnn::Deconvolution_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/deconvolution_vulkan.h(34): note: 参见“ncnn::Deconvolution_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(282): warning C4250: “ncnn::Deconvolution_final”: 通过域控制继承“ncnn::Deconvolution_vulkan::ncnn::Deconvolution_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/deconvolution_vulkan.h(30): note: 参见“ncnn::Deconvolution_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(305): warning C4250: “ncnn::Dropout_final”: 通过域控制继承“ncnn::Dropout_vulkan::ncnn::Dropout_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/dropout_vulkan.h(32): note: 参见“ncnn::Dropout_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(305): warning C4250: “ncnn::Dropout_final”: 通过域控制继承“ncnn::Dropout_x86::ncnn::Dropout_x86::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/dropout_x86.h(27): note: 参见“ncnn::Dropout_x86::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(328): warning C4250: “ncnn::Dropout_final_avx2”: 通过域控制继承“ncnn::Dropout_vulkan::ncnn::Dropout_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/dropout_vulkan.h(32): note: 参见“ncnn::Dropout_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(328): warning C4250: “ncnn::Dropout_final_avx2”: 通过域控制继承“ncnn::Dropout_x86_avx2::ncnn::Dropout_x86_avx2::forward_inplace”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/dropout_x86_avx2.h(27): note: 参见“ncnn::Dropout_x86_avx2::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(351): warning C4250: “ncnn::Eltwise_final”: 通过域控制继承“ncnn::Eltwise_vulkan::ncnn::Eltwise_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/eltwise_vulkan.h(32): note: 参见“ncnn::Eltwise_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(351): warning C4250: “ncnn::Eltwise_final”: 通过域控制继承“ncnn::Eltwise_x86::ncnn::Eltwise_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/eltwise_x86.h(27): note: 参见“ncnn::Eltwise_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(374): warning C4250: “ncnn::Eltwise_final_avx2”: 通过域控制继承“ncnn::Eltwise_vulkan::ncnn::Eltwise_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/eltwise_vulkan.h(32): note: 参见“ncnn::Eltwise_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(374): warning C4250: “ncnn::Eltwise_final_avx2”: 通过域控制继承“ncnn::Eltwise_x86_avx2::ncnn::Eltwise_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/eltwise_x86_avx2.h(27): note: 参见“ncnn::Eltwise_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(448): warning C4250: “ncnn::Flatten_final”: 通过域控制继承“ncnn::Flatten_vulkan::ncnn::Flatten_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/flatten_vulkan.h(32): note: 参见“ncnn::Flatten_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(448): warning C4250: “ncnn::Flatten_final”: 通过域控制继承“ncnn::Flatten_x86::ncnn::Flatten_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/flatten_x86.h(27): note: 参见“ncnn::Flatten_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(471): warning C4250: “ncnn::Flatten_final_avx2”: 通过域控制继承“ncnn::Flatten_vulkan::ncnn::Flatten_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/flatten_vulkan.h(32): note: 参见“ncnn::Flatten_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(471): warning C4250: “ncnn::Flatten_final_avx2”: 通过域控制继承“ncnn::Flatten_x86_avx2::ncnn::Flatten_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/flatten_x86_avx2.h(27): note: 参见“ncnn::Flatten_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(494): warning C4250: “ncnn::InnerProduct_final”: 通过域控制继承“ncnn::InnerProduct_vulkan::ncnn::InnerProduct_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/innerproduct_vulkan.h(34): note: 参见“ncnn::InnerProduct_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(494): warning C4250: “ncnn::InnerProduct_final”: 通过域控制继承“ncnn::InnerProduct_x86::ncnn::InnerProduct_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/innerproduct_x86.h(33): note: 参见“ncnn::InnerProduct_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(494): warning C4250: “ncnn::InnerProduct_final”: 通过域控制继承“ncnn::InnerProduct_vulkan::ncnn::InnerProduct_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/innerproduct_vulkan.h(30): note: 参见“ncnn::InnerProduct_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(517): warning C4250: “ncnn::InnerProduct_final_avx2”: 通过域控制继承“ncnn::InnerProduct_vulkan::ncnn::InnerProduct_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/innerproduct_vulkan.h(34): note: 参见“ncnn::InnerProduct_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(517): warning C4250: “ncnn::InnerProduct_final_avx2”: 通过域控制继承“ncnn::InnerProduct_x86_avx2::ncnn::InnerProduct_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/innerproduct_x86_avx2.h(33): note: 参见“ncnn::InnerProduct_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(517): warning C4250: “ncnn::InnerProduct_final_avx2”: 通过域控制继承“ncnn::InnerProduct_vulkan::ncnn::InnerProduct_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/innerproduct_vulkan.h(30): note: 参见“ncnn::InnerProduct_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(574): warning C4250: “ncnn::LRN_final”: 通过域控制继承“ncnn::LRN_vulkan::ncnn::LRN_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/lrn_vulkan.h(32): note: 参见“ncnn::LRN_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(574): warning C4250: “ncnn::LRN_final”: 通过域控制继承“ncnn::LRN_x86::ncnn::LRN_x86::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/lrn_x86.h(25): note: 参见“ncnn::LRN_x86::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(597): warning C4250: “ncnn::LRN_final_avx2”: 通过域控制继承“ncnn::LRN_vulkan::ncnn::LRN_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/lrn_vulkan.h(32): note: 参见“ncnn::LRN_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(597): warning C4250: “ncnn::LRN_final_avx2”: 通过域控制继承“ncnn::LRN_x86_avx2::ncnn::LRN_x86_avx2::forward_inplace”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/lrn_x86_avx2.h(25): note: 参见“ncnn::LRN_x86_avx2::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(617): warning C4250: “ncnn::MemoryData_final”: 通过域控制继承“ncnn::MemoryData_vulkan::ncnn::MemoryData_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/memorydata_vulkan.h(33): note: 参见“ncnn::MemoryData_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(617): warning C4250: “ncnn::MemoryData_final”: 通过域控制继承“ncnn::MemoryData_vulkan::ncnn::MemoryData_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/memorydata_vulkan.h(29): note: 参见“ncnn::MemoryData_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(657): warning C4250: “ncnn::Pooling_final”: 通过域控制继承“ncnn::Pooling_vulkan::ncnn::Pooling_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/pooling_vulkan.h(34): note: 参见“ncnn::Pooling_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(657): warning C4250: “ncnn::Pooling_final”: 通过域控制继承“ncnn::Pooling_x86::ncnn::Pooling_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/pooling_x86.h(30): note: 参见“ncnn::Pooling_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(657): warning C4250: “ncnn::Pooling_final”: 通过域控制继承“ncnn::Pooling_vulkan::ncnn::Pooling_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/pooling_vulkan.h(30): note: 参见“ncnn::Pooling_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(680): warning C4250: “ncnn::Pooling_final_avx2”: 通过域控制继承“ncnn::Pooling_vulkan::ncnn::Pooling_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/pooling_vulkan.h(34): note: 参见“ncnn::Pooling_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(680): warning C4250: “ncnn::Pooling_final_avx2”: 通过域控制继承“ncnn::Pooling_x86_avx2::ncnn::Pooling_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/pooling_x86_avx2.h(30): note: 参见“ncnn::Pooling_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(680): warning C4250: “ncnn::Pooling_final_avx2”: 通过域控制继承“ncnn::Pooling_vulkan::ncnn::Pooling_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/pooling_vulkan.h(30): note: 参见“ncnn::Pooling_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(720): warning C4250: “ncnn::PReLU_final”: 通过域控制继承“ncnn::PReLU_vulkan::ncnn::PReLU_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/prelu_vulkan.h(34): note: 参见“ncnn::PReLU_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(720): warning C4250: “ncnn::PReLU_final”: 通过域控制继承“ncnn::PReLU_x86::ncnn::PReLU_x86::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/prelu_x86.h(27): note: 参见“ncnn::PReLU_x86::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(720): warning C4250: “ncnn::PReLU_final”: 通过域控制继承“ncnn::PReLU_vulkan::ncnn::PReLU_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/prelu_vulkan.h(30): note: 参见“ncnn::PReLU_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(743): warning C4250: “ncnn::PReLU_final_avx2”: 通过域控制继承“ncnn::PReLU_vulkan::ncnn::PReLU_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/prelu_vulkan.h(34): note: 参见“ncnn::PReLU_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(743): warning C4250: “ncnn::PReLU_final_avx2”: 通过域控制继承“ncnn::PReLU_x86_avx2::ncnn::PReLU_x86_avx2::forward_inplace”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/prelu_x86_avx2.h(27): note: 参见“ncnn::PReLU_x86_avx2::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(743): warning C4250: “ncnn::PReLU_final_avx2”: 通过域控制继承“ncnn::PReLU_vulkan::ncnn::PReLU_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/prelu_vulkan.h(30): note: 参见“ncnn::PReLU_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(800): warning C4250: “ncnn::ReLU_final”: 通过域控制继承“ncnn::ReLU_vulkan::ncnn::ReLU_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/relu_vulkan.h(32): note: 参见“ncnn::ReLU_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(800): warning C4250: “ncnn::ReLU_final”: 通过域控制继承“ncnn::ReLU_x86::ncnn::ReLU_x86::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/relu_x86.h(27): note: 参见“ncnn::ReLU_x86::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(823): warning C4250: “ncnn::ReLU_final_avx2”: 通过域控制继承“ncnn::ReLU_vulkan::ncnn::ReLU_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/relu_vulkan.h(32): note: 参见“ncnn::ReLU_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(823): warning C4250: “ncnn::ReLU_final_avx2”: 通过域控制继承“ncnn::ReLU_x86_avx2::ncnn::ReLU_x86_avx2::forward_inplace”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/relu_x86_avx2.h(27): note: 参见“ncnn::ReLU_x86_avx2::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(846): warning C4250: “ncnn::Reshape_final”: 通过域控制继承“ncnn::Reshape_vulkan::ncnn::Reshape_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/reshape_vulkan.h(32): note: 参见“ncnn::Reshape_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(846): warning C4250: “ncnn::Reshape_final”: 通过域控制继承“ncnn::Reshape_x86::ncnn::Reshape_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/reshape_x86.h(27): note: 参见“ncnn::Reshape_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(869): warning C4250: “ncnn::Reshape_final_avx2”: 通过域控制继承“ncnn::Reshape_vulkan::ncnn::Reshape_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/reshape_vulkan.h(32): note: 参见“ncnn::Reshape_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(869): warning C4250: “ncnn::Reshape_final_avx2”: 通过域控制继承“ncnn::Reshape_x86_avx2::ncnn::Reshape_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/reshape_x86_avx2.h(27): note: 参见“ncnn::Reshape_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(909): warning C4250: “ncnn::Scale_final”: 通过域控制继承“ncnn::Scale_vulkan::ncnn::Scale_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/scale_vulkan.h(36): note: 参见“ncnn::Scale_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(909): warning C4250: “ncnn::Scale_final”: 通过域控制继承“ncnn::Scale_x86::ncnn::Scale_x86::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/scale_x86.h(27): note: 参见“ncnn::Scale_x86::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(909): warning C4250: “ncnn::Scale_final”: 通过域控制继承“ncnn::Scale_vulkan::ncnn::Scale_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/scale_vulkan.h(30): note: 参见“ncnn::Scale_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(932): warning C4250: “ncnn::Scale_final_avx2”: 通过域控制继承“ncnn::Scale_vulkan::ncnn::Scale_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/scale_vulkan.h(36): note: 参见“ncnn::Scale_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(932): warning C4250: “ncnn::Scale_final_avx2”: 通过域控制继承“ncnn::Scale_x86_avx2::ncnn::Scale_x86_avx2::forward_inplace”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/scale_x86_avx2.h(27): note: 参见“ncnn::Scale_x86_avx2::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(932): warning C4250: “ncnn::Scale_final_avx2”: 通过域控制继承“ncnn::Scale_vulkan::ncnn::Scale_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/scale_vulkan.h(30): note: 参见“ncnn::Scale_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(955): warning C4250: “ncnn::Sigmoid_final”: 通过域控制继承“ncnn::Sigmoid_vulkan::ncnn::Sigmoid_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/sigmoid_vulkan.h(32): note: 参见“ncnn::Sigmoid_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(955): warning C4250: “ncnn::Sigmoid_final”: 通过域控制继承“ncnn::Sigmoid_x86::ncnn::Sigmoid_x86::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/sigmoid_x86.h(27): note: 参见“ncnn::Sigmoid_x86::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(978): warning C4250: “ncnn::Sigmoid_final_avx2”: 通过域控制继承“ncnn::Sigmoid_vulkan::ncnn::Sigmoid_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/sigmoid_vulkan.h(32): note: 参见“ncnn::Sigmoid_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(978): warning C4250: “ncnn::Sigmoid_final_avx2”: 通过域控制继承“ncnn::Sigmoid_x86_avx2::ncnn::Sigmoid_x86_avx2::forward_inplace”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/sigmoid_x86_avx2.h(27): note: 参见“ncnn::Sigmoid_x86_avx2::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1001): warning C4250: “ncnn::Slice_final”: 通过域控制继承“ncnn::Slice_vulkan::ncnn::Slice_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/slice_vulkan.h(32): note: 参见“ncnn::Slice_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1001): warning C4250: “ncnn::Slice_final”: 通过域控制继承“ncnn::Slice_x86::ncnn::Slice_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/slice_x86.h(27): note: 参见“ncnn::Slice_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1024): warning C4250: “ncnn::Slice_final_avx2”: 通过域控制继承“ncnn::Slice_vulkan::ncnn::Slice_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/slice_vulkan.h(32): note: 参见“ncnn::Slice_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1024): warning C4250: “ncnn::Slice_final_avx2”: 通过域控制继承“ncnn::Slice_x86_avx2::ncnn::Slice_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/slice_x86_avx2.h(27): note: 参见“ncnn::Slice_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1044): warning C4250: “ncnn::Softmax_final”: 通过域控制继承“ncnn::Softmax_vulkan::ncnn::Softmax_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/softmax_vulkan.h(32): note: 参见“ncnn::Softmax_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1084): warning C4250: “ncnn::TanH_final”: 通过域控制继承“ncnn::TanH_vulkan::ncnn::TanH_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/tanh_vulkan.h(32): note: 参见“ncnn::TanH_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1084): warning C4250: “ncnn::TanH_final”: 通过域控制继承“ncnn::TanH_x86::ncnn::TanH_x86::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/tanh_x86.h(27): note: 参见“ncnn::TanH_x86::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1107): warning C4250: “ncnn::TanH_final_avx2”: 通过域控制继承“ncnn::TanH_vulkan::ncnn::TanH_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/tanh_vulkan.h(32): note: 参见“ncnn::TanH_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1107): warning C4250: “ncnn::TanH_final_avx2”: 通过域控制继承“ncnn::TanH_x86_avx2::ncnn::TanH_x86_avx2::forward_inplace”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/tanh_x86_avx2.h(27): note: 参见“ncnn::TanH_x86_avx2::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1144): warning C4250: “ncnn::LSTM_final”: 通过域控制继承“ncnn::LSTM_x86::ncnn::LSTM_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/lstm_x86.h(29): note: 参见“ncnn::LSTM_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1164): warning C4250: “ncnn::LSTM_final_avx2”: 通过域控制继承“ncnn::LSTM_x86_avx2::ncnn::LSTM_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/lstm_x86_avx2.h(29): note: 参见“ncnn::LSTM_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1187): warning C4250: “ncnn::BinaryOp_final”: 通过域控制继承“ncnn::BinaryOp_vulkan::ncnn::BinaryOp_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/binaryop_vulkan.h(36): note: 参见“ncnn::BinaryOp_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1187): warning C4250: “ncnn::BinaryOp_final”: 通过域控制继承“ncnn::BinaryOp_x86::ncnn::BinaryOp_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/binaryop_x86.h(27): note: 参见“ncnn::BinaryOp_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1187): warning C4250: “ncnn::BinaryOp_final”: 通过域控制继承“ncnn::BinaryOp_vulkan::ncnn::BinaryOp_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/binaryop_vulkan.h(38): note: 参见“ncnn::BinaryOp_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1187): warning C4250: “ncnn::BinaryOp_final”: 通过域控制继承“ncnn::BinaryOp_x86::ncnn::BinaryOp_x86::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/binaryop_x86.h(29): note: 参见“ncnn::BinaryOp_x86::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1210): warning C4250: “ncnn::BinaryOp_final_avx2”: 通过域控制继承“ncnn::BinaryOp_vulkan::ncnn::BinaryOp_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/binaryop_vulkan.h(36): note: 参见“ncnn::BinaryOp_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1210): warning C4250: “ncnn::BinaryOp_final_avx2”: 通过域控制继承“ncnn::BinaryOp_x86_avx2::ncnn::BinaryOp_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/binaryop_x86_avx2.h(27): note: 参见“ncnn::BinaryOp_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1210): warning C4250: “ncnn::BinaryOp_final_avx2”: 通过域控制继承“ncnn::BinaryOp_vulkan::ncnn::BinaryOp_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/binaryop_vulkan.h(38): note: 参见“ncnn::BinaryOp_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1210): warning C4250: “ncnn::BinaryOp_final_avx2”: 通过域控制继承“ncnn::BinaryOp_x86_avx2::ncnn::BinaryOp_x86_avx2::forward_inplace”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/binaryop_x86_avx2.h(29): note: 参见“ncnn::BinaryOp_x86_avx2::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1230): warning C4250: “ncnn::UnaryOp_final”: 通过域控制继承“ncnn::UnaryOp_vulkan::ncnn::UnaryOp_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/unaryop_vulkan.h(32): note: 参见“ncnn::UnaryOp_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1253): warning C4250: “ncnn::ConvolutionDepthWise_final”: 通过域控制继承“ncnn::ConvolutionDepthWise_vulkan::ncnn::ConvolutionDepthWise_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/convolutiondepthwise_vulkan.h(34): note: 参见“ncnn::ConvolutionDepthWise_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1253): warning C4250: “ncnn::ConvolutionDepthWise_final”: 通过域控制继承“ncnn::ConvolutionDepthWise_x86::ncnn::ConvolutionDepthWise_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/convolutiondepthwise_x86.h(30): note: 参见“ncnn::ConvolutionDepthWise_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1253): warning C4250: “ncnn::ConvolutionDepthWise_final”: 通过域控制继承“ncnn::ConvolutionDepthWise_vulkan::ncnn::ConvolutionDepthWise_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/convolutiondepthwise_vulkan.h(30): note: 参见“ncnn::ConvolutionDepthWise_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1276): warning C4250: “ncnn::ConvolutionDepthWise_final_avx2”: 通过域控制继承“ncnn::ConvolutionDepthWise_vulkan::ncnn::ConvolutionDepthWise_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/convolutiondepthwise_vulkan.h(34): note: 参见“ncnn::ConvolutionDepthWise_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1276): warning C4250: “ncnn::ConvolutionDepthWise_final_avx2”: 通过域控制继承“ncnn::ConvolutionDepthWise_x86_avx2::ncnn::ConvolutionDepthWise_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/convolutiondepthwise_x86_avx2.h(30): note: 参见“ncnn::ConvolutionDepthWise_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1276): warning C4250: “ncnn::ConvolutionDepthWise_final_avx2”: 通过域控制继承“ncnn::ConvolutionDepthWise_vulkan::ncnn::ConvolutionDepthWise_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/convolutiondepthwise_vulkan.h(30): note: 参见“ncnn::ConvolutionDepthWise_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1299): warning C4250: “ncnn::Padding_final”: 通过域控制继承“ncnn::Padding_vulkan::ncnn::Padding_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/padding_vulkan.h(37): note: 参见“ncnn::Padding_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1299): warning C4250: “ncnn::Padding_final”: 通过域控制继承“ncnn::Padding_x86::ncnn::Padding_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/padding_x86.h(27): note: 参见“ncnn::Padding_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1299): warning C4250: “ncnn::Padding_final”: 通过域控制继承“ncnn::Padding_vulkan::ncnn::Padding_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/padding_vulkan.h(30): note: 参见“ncnn::Padding_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1322): warning C4250: “ncnn::Padding_final_avx2”: 通过域控制继承“ncnn::Padding_vulkan::ncnn::Padding_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/padding_vulkan.h(37): note: 参见“ncnn::Padding_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1322): warning C4250: “ncnn::Padding_final_avx2”: 通过域控制继承“ncnn::Padding_x86_avx2::ncnn::Padding_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/padding_x86_avx2.h(27): note: 参见“ncnn::Padding_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1322): warning C4250: “ncnn::Padding_final_avx2”: 通过域控制继承“ncnn::Padding_vulkan::ncnn::Padding_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/padding_vulkan.h(30): note: 参见“ncnn::Padding_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1376): warning C4250: “ncnn::Normalize_final”: 通过域控制继承“ncnn::Normalize_vulkan::ncnn::Normalize_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/normalize_vulkan.h(34): note: 参见“ncnn::Normalize_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1376): warning C4250: “ncnn::Normalize_final”: 通过域控制继承“ncnn::Normalize_vulkan::ncnn::Normalize_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/normalize_vulkan.h(30): note: 参见“ncnn::Normalize_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1396): warning C4250: “ncnn::Permute_final”: 通过域控制继承“ncnn::Permute_vulkan::ncnn::Permute_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/permute_vulkan.h(32): note: 参见“ncnn::Permute_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1416): warning C4250: “ncnn::PriorBox_final”: 通过域控制继承“ncnn::PriorBox_vulkan::ncnn::PriorBox_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/priorbox_vulkan.h(33): note: 参见“ncnn::PriorBox_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1416): warning C4250: “ncnn::PriorBox_final”: 通过域控制继承“ncnn::PriorBox_vulkan::ncnn::PriorBox_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/priorbox_vulkan.h(30): note: 参见“ncnn::PriorBox_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1453): warning C4250: “ncnn::Interp_final”: 通过域控制继承“ncnn::Interp_vulkan::ncnn::Interp_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/interp_vulkan.h(32): note: 参见“ncnn::Interp_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1473): warning C4250: “ncnn::DeconvolutionDepthWise_final”: 通过域控制继承“ncnn::DeconvolutionDepthWise_vulkan::ncnn::DeconvolutionDepthWise_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/deconvolutiondepthwise_vulkan.h(34): note: 参见“ncnn::DeconvolutionDepthWise_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1473): warning C4250: “ncnn::DeconvolutionDepthWise_final”: 通过域控制继承“ncnn::DeconvolutionDepthWise_vulkan::ncnn::DeconvolutionDepthWise_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/deconvolutiondepthwise_vulkan.h(30): note: 参见“ncnn::DeconvolutionDepthWise_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1493): warning C4250: “ncnn::ShuffleChannel_final”: 通过域控制继承“ncnn::ShuffleChannel_vulkan::ncnn::ShuffleChannel_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/shufflechannel_vulkan.h(32): note: 参见“ncnn::ShuffleChannel_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1513): warning C4250: “ncnn::InstanceNorm_final”: 通过域控制继承“ncnn::InstanceNorm_vulkan::ncnn::InstanceNorm_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/instancenorm_vulkan.h(34): note: 参见“ncnn::InstanceNorm_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1513): warning C4250: “ncnn::InstanceNorm_final”: 通过域控制继承“ncnn::InstanceNorm_vulkan::ncnn::InstanceNorm_vulkan::upload_model”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/instancenorm_vulkan.h(30): note: 参见“ncnn::InstanceNorm_vulkan::upload_model”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1536): warning C4250: “ncnn::Clip_final”: 通过域控制继承“ncnn::Clip_vulkan::ncnn::Clip_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/clip_vulkan.h(32): note: 参见“ncnn::Clip_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1536): warning C4250: “ncnn::Clip_final”: 通过域控制继承“ncnn::Clip_x86::ncnn::Clip_x86::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/clip_x86.h(27): note: 参见“ncnn::Clip_x86::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1559): warning C4250: “ncnn::Clip_final_avx2”: 通过域控制继承“ncnn::Clip_vulkan::ncnn::Clip_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/clip_vulkan.h(32): note: 参见“ncnn::Clip_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1559): warning C4250: “ncnn::Clip_final_avx2”: 通过域控制继承“ncnn::Clip_x86_avx2::ncnn::Clip_x86_avx2::forward_inplace”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/clip_x86_avx2.h(27): note: 参见“ncnn::Clip_x86_avx2::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1579): warning C4250: “ncnn::Reorg_final”: 通过域控制继承“ncnn::Reorg_vulkan::ncnn::Reorg_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/reorg_vulkan.h(32): note: 参见“ncnn::Reorg_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1650): warning C4250: “ncnn::Yolov3DetectionOutput_final”: 通过域控制继承“ncnn::Yolov3DetectionOutput_x86::ncnn::Yolov3DetectionOutput_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/yolov3detectionoutput_x86.h(27): note: 参见“ncnn::Yolov3DetectionOutput_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1670): warning C4250: “ncnn::Yolov3DetectionOutput_final_avx2”: 通过域控制继承“ncnn::Yolov3DetectionOutput_x86_avx2::ncnn::Yolov3DetectionOutput_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/yolov3detectionoutput_x86_avx2.h(27): note: 参见“ncnn::Yolov3DetectionOutput_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1707): warning C4250: “ncnn::ROIAlign_final”: 通过域控制继承“ncnn::ROIAlign_x86::ncnn::ROIAlign_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/roialign_x86.h(27): note: 参见“ncnn::ROIAlign_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1727): warning C4250: “ncnn::ROIAlign_final_avx2”: 通过域控制继承“ncnn::ROIAlign_x86_avx2::ncnn::ROIAlign_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/roialign_x86_avx2.h(27): note: 参见“ncnn::ROIAlign_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1750): warning C4250: “ncnn::Packing_final”: 通过域控制继承“ncnn::Packing_vulkan::ncnn::Packing_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/packing_vulkan.h(32): note: 参见“ncnn::Packing_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1750): warning C4250: “ncnn::Packing_final”: 通过域控制继承“ncnn::Packing_x86::ncnn::Packing_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/packing_x86.h(27): note: 参见“ncnn::Packing_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1773): warning C4250: “ncnn::Packing_final_avx2”: 通过域控制继承“ncnn::Packing_vulkan::ncnn::Packing_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/packing_vulkan.h(32): note: 参见“ncnn::Packing_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1773): warning C4250: “ncnn::Packing_final_avx2”: 通过域控制继承“ncnn::Packing_x86_avx2::ncnn::Packing_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/packing_x86_avx2.h(27): note: 参见“ncnn::Packing_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1813): warning C4250: “ncnn::Cast_final”: 通过域控制继承“ncnn::Cast_vulkan::ncnn::Cast_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/cast_vulkan.h(32): note: 参见“ncnn::Cast_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1813): warning C4250: “ncnn::Cast_final”: 通过域控制继承“ncnn::Cast_x86::ncnn::Cast_x86::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/cast_x86.h(27): note: 参见“ncnn::Cast_x86::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1836): warning C4250: “ncnn::Cast_final_avx2”: 通过域控制继承“ncnn::Cast_vulkan::ncnn::Cast_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/cast_vulkan.h(32): note: 参见“ncnn::Cast_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1836): warning C4250: “ncnn::Cast_final_avx2”: 通过域控制继承“ncnn::Cast_x86_avx2::ncnn::Cast_x86_avx2::forward”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/cast_x86_avx2.h(27): note: 参见“ncnn::Cast_x86_avx2::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1859): warning C4250: “ncnn::HardSigmoid_final”: 通过域控制继承“ncnn::HardSigmoid_vulkan::ncnn::HardSigmoid_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/hardsigmoid_vulkan.h(32): note: 参见“ncnn::HardSigmoid_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1859): warning C4250: “ncnn::HardSigmoid_final”: 通过域控制继承“ncnn::HardSigmoid_x86::ncnn::HardSigmoid_x86::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/hardsigmoid_x86.h(27): note: 参见“ncnn::HardSigmoid_x86::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1882): warning C4250: “ncnn::HardSigmoid_final_avx2”: 通过域控制继承“ncnn::HardSigmoid_vulkan::ncnn::HardSigmoid_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/hardsigmoid_vulkan.h(32): note: 参见“ncnn::HardSigmoid_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1882): warning C4250: “ncnn::HardSigmoid_final_avx2”: 通过域控制继承“ncnn::HardSigmoid_x86_avx2::ncnn::HardSigmoid_x86_avx2::forward_inplace”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/hardsigmoid_x86_avx2.h(27): note: 参见“ncnn::HardSigmoid_x86_avx2::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1922): warning C4250: “ncnn::HardSwish_final”: 通过域控制继承“ncnn::HardSwish_vulkan::ncnn::HardSwish_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/hardswish_vulkan.h(32): note: 参见“ncnn::HardSwish_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1922): warning C4250: “ncnn::HardSwish_final”: 通过域控制继承“ncnn::HardSwish_x86::ncnn::HardSwish_x86::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/hardswish_x86.h(27): note: 参见“ncnn::HardSwish_x86::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1945): warning C4250: “ncnn::HardSwish_final_avx2”: 通过域控制继承“ncnn::HardSwish_vulkan::ncnn::HardSwish_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/hardswish_vulkan.h(32): note: 参见“ncnn::HardSwish_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1945): warning C4250: “ncnn::HardSwish_final_avx2”: 通过域控制继承“ncnn::HardSwish_x86_avx2::ncnn::HardSwish_x86_avx2::forward_inplace”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/hardswish_x86_avx2.h(27): note: 参见“ncnn::HardSwish_x86_avx2::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(1982): warning C4250: “ncnn::PixelShuffle_final”: 通过域控制继承“ncnn::PixelShuffle_vulkan::ncnn::PixelShuffle_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/pixelshuffle_vulkan.h(32): note: 参见“ncnn::PixelShuffle_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(2002): warning C4250: “ncnn::DeepCopy_final”: 通过域控制继承“ncnn::DeepCopy_vulkan::ncnn::DeepCopy_vulkan::forward”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/deepcopy_vulkan.h(32): note: 参见“ncnn::DeepCopy_vulkan::forward”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(2025): warning C4250: “ncnn::Mish_final”: 通过域控制继承“ncnn::Mish_vulkan::ncnn::Mish_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/mish_vulkan.h(31): note: 参见“ncnn::Mish_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(2025): warning C4250: “ncnn::Mish_final”: 通过域控制继承“ncnn::Mish_x86::ncnn::Mish_x86::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/mish_x86.h(27): note: 参见“ncnn::Mish_x86::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(2048): warning C4250: “ncnn::Mish_final_avx2”: 通过域控制继承“ncnn::Mish_vulkan::ncnn::Mish_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/mish_vulkan.h(31): note: 参见“ncnn::Mish_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(2048): warning C4250: “ncnn::Mish_final_avx2”: 通过域控制继承“ncnn::Mish_x86_avx2::ncnn::Mish_x86_avx2::forward_inplace”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/mish_x86_avx2.h(27): note: 参见“ncnn::Mish_x86_avx2::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(2088): warning C4250: “ncnn::Swish_final”: 通过域控制继承“ncnn::Swish_vulkan::ncnn::Swish_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/swish_vulkan.h(31): note: 参见“ncnn::Swish_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(2088): warning C4250: “ncnn::Swish_final”: 通过域控制继承“ncnn::Swish_x86::ncnn::Swish_x86::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/x86/swish_x86.h(27): note: 参见“ncnn::Swish_x86::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(2111): warning C4250: “ncnn::Swish_final_avx2”: 通过域控制继承“ncnn::Swish_vulkan::ncnn::Swish_vulkan::forward_inplace”
+  f:\pytorch2ncnn\ncnn\src\layer/vulkan/swish_vulkan.h(31): note: 参见“ncnn::Swish_vulkan::forward_inplace”的声明
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer_declaration.h(2111): warning C4250: “ncnn::Swish_final_avx2”: 通过域控制继承“ncnn::Swish_x86_avx2::ncnn::Swish_x86_avx2::forward_inplace”
+  f:\pytorch2ncnn\ncnn\build_cmakegui\src\layer/x86/swish_x86_avx2.h(27): note: 参见“ncnn::Swish_x86_avx2::forward_inplace”的声明
+  mat.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  mat_pixel.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  mat_pixel_affine.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  mat_pixel_resize.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  mat_pixel_rotate.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  modelbin.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  net.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\net.cpp(2698): warning C4267: “参数”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\net.cpp(2715): warning C4267: “参数”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\net.cpp(2742): warning C4267: “参数”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  option.cpp
+  paramdict.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  pipeline.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  pipelinecache.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\pipelinecache.cpp(68): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\pipelinecache.cpp(79): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\pipelinecache.cpp(79): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\pipelinecache.cpp(103): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\pipelinecache.cpp(103): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  simpleocv.cpp
+  simpleomp.cpp
+  simplestl.cpp
+  absval.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  absval_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\absval_vulkan.cpp(64): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\absval_vulkan.cpp(139): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  batchnorm.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  batchnorm_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  batchnorm_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\batchnorm_vulkan.cpp(61): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\batchnorm_vulkan.cpp(169): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  bias.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  bias_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  bnll.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  concat.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  concat_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\x86\concat_x86.cpp(405): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  concat_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\concat_vulkan.cpp(113): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\concat_vulkan.cpp(296): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\concat_vulkan.cpp(301): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\concat_vulkan.cpp(398): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\concat_vulkan.cpp(403): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\concat_vulkan.cpp(480): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\concat_vulkan.cpp(485): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\concat_vulkan.cpp(555): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\concat_vulkan.cpp(560): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\concat_vulkan.cpp(638): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\concat_vulkan.cpp(643): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\concat_vulkan.cpp(693): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\concat_vulkan.cpp(698): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  convolution.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  convolution_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  convolution_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(273): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(278): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(366): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(367): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(379): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(382): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(396): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(401): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(493): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(494): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(506): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(509): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(523): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(528): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(1135): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(1136): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(1162): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(1165): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(1189): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(1194): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(1278): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(1279): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(1305): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(1308): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(1332): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(1337): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(1386): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(1391): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp(1397): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  crop.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  crop_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  crop_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\crop_vulkan.cpp(184): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\crop_vulkan.cpp(189): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\crop_vulkan.cpp(410): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\crop_vulkan.cpp(415): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\crop_vulkan.cpp(578): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\crop_vulkan.cpp(583): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  deconvolution.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  deconvolution_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\deconvolution_vulkan.cpp(189): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\deconvolution_vulkan.cpp(194): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\deconvolution_vulkan.cpp(480): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\deconvolution_vulkan.cpp(485): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  dropout.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  dropout_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  dropout_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\dropout_vulkan.cpp(65): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\dropout_vulkan.cpp(145): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  eltwise.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  eltwise_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  eltwise_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\eltwise_vulkan.cpp(69): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\eltwise_vulkan.cpp(173): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\eltwise_vulkan.cpp(195): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  elu.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  embed.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  exp.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  flatten.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  flatten_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  flatten_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\flatten_vulkan.cpp(85): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\flatten_vulkan.cpp(90): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\flatten_vulkan.cpp(227): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\flatten_vulkan.cpp(232): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  innerproduct.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  innerproduct_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  innerproduct_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\innerproduct_vulkan.cpp(121): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\innerproduct_vulkan.cpp(126): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\innerproduct_vulkan.cpp(353): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\innerproduct_vulkan.cpp(358): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  input.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  log.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  lrn.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  lrn_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  lrn_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\lrn_vulkan.cpp(90): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\lrn_vulkan.cpp(95): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\lrn_vulkan.cpp(153): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\lrn_vulkan.cpp(158): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\lrn_vulkan.cpp(273): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\lrn_vulkan.cpp(278): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\lrn_vulkan.cpp(310): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\lrn_vulkan.cpp(315): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  memorydata.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  memorydata_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  mvn.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  pooling.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  pooling_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  pooling_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\pooling_vulkan.cpp(157): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\pooling_vulkan.cpp(162): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\pooling_vulkan.cpp(215): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\pooling_vulkan.cpp(220): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\pooling_vulkan.cpp(324): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\pooling_vulkan.cpp(329): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\pooling_vulkan.cpp(459): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\pooling_vulkan.cpp(464): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  power.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  prelu.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  prelu_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  prelu_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\prelu_vulkan.cpp(67): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\prelu_vulkan.cpp(165): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  proposal.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  reduction.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  relu.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  relu_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  relu_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\relu_vulkan.cpp(65): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\relu_vulkan.cpp(140): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  reshape.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  reshape_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  reshape_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\reshape_vulkan.cpp(190): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\reshape_vulkan.cpp(195): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\reshape_vulkan.cpp(533): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\reshape_vulkan.cpp(538): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\reshape_vulkan.cpp(648): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\reshape_vulkan.cpp(653): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  roipooling.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  scale.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  scale_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  scale_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\scale_vulkan.cpp(67): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\scale_vulkan.cpp(124): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\scale_vulkan.cpp(241): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  sigmoid.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  sigmoid_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  sigmoid_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\sigmoid_vulkan.cpp(64): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\sigmoid_vulkan.cpp(139): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  slice.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  slice_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\x86\slice_x86.cpp(52): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\x86\slice_x86.cpp(93): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\x86\slice_x86.cpp(249): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\x86\slice_x86.cpp(289): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\x86\slice_x86.cpp(429): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\x86\slice_x86.cpp(453): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\x86\slice_x86.cpp(496): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  slice_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(100): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(250): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(297): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(302): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(351): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(398): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(403): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(452): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(477): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(482): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(510): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(557): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(562): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(612): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(637): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(642): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(670): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(695): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(700): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(737): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(838): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(939): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(997): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(1099): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp(1157): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  softmax.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  softmax_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\softmax_vulkan.cpp(103): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\softmax_vulkan.cpp(108): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\softmax_vulkan.cpp(327): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\softmax_vulkan.cpp(332): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\softmax_vulkan.cpp(352): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\softmax_vulkan.cpp(357): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\softmax_vulkan.cpp(377): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\softmax_vulkan.cpp(382): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\softmax_vulkan.cpp(402): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\softmax_vulkan.cpp(407): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  split.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  tanh.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  tanh_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  tanh_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\tanh_vulkan.cpp(64): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\tanh_vulkan.cpp(139): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  threshold.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  lstm.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  lstm_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  binaryop.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  binaryop_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  binaryop_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\binaryop_vulkan.cpp(116): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\binaryop_vulkan.cpp(121): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\binaryop_vulkan.cpp(126): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\binaryop_vulkan.cpp(182): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\binaryop_vulkan.cpp(187): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\binaryop_vulkan.cpp(192): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\binaryop_vulkan.cpp(351): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\binaryop_vulkan.cpp(356): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\binaryop_vulkan.cpp(361): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\binaryop_vulkan.cpp(432): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  unaryop.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  unaryop_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\unaryop_vulkan.cpp(65): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\unaryop_vulkan.cpp(140): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  convolutiondepthwise.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  convolutiondepthwise_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  convolutiondepthwise_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolutiondepthwise_vulkan.cpp(214): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolutiondepthwise_vulkan.cpp(219): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolutiondepthwise_vulkan.cpp(260): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolutiondepthwise_vulkan.cpp(265): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolutiondepthwise_vulkan.cpp(626): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolutiondepthwise_vulkan.cpp(631): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolutiondepthwise_vulkan.cpp(685): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolutiondepthwise_vulkan.cpp(690): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  padding.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  padding_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  padding_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\padding_vulkan.cpp(144): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\padding_vulkan.cpp(149): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\padding_vulkan.cpp(402): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\padding_vulkan.cpp(407): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\padding_vulkan.cpp(590): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\padding_vulkan.cpp(595): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  squeeze.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  expanddims.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  normalize.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  normalize_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\normalize_vulkan.cpp(168): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\normalize_vulkan.cpp(317): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\normalize_vulkan.cpp(321): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\normalize_vulkan.cpp(369): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\normalize_vulkan.cpp(373): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\normalize_vulkan.cpp(400): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\normalize_vulkan.cpp(421): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  permute.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  permute_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\permute_vulkan.cpp(94): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\permute_vulkan.cpp(99): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\permute_vulkan.cpp(353): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\permute_vulkan.cpp(358): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  priorbox.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  priorbox_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\priorbox_vulkan.cpp(233): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\priorbox_vulkan.cpp(234): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  detectionoutput.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  interp.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  interp_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\interp_vulkan.cpp(96): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\interp_vulkan.cpp(101): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\interp_vulkan.cpp(184): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\interp_vulkan.cpp(189): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\interp_vulkan.cpp(367): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\interp_vulkan.cpp(372): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\interp_vulkan.cpp(406): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\interp_vulkan.cpp(411): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\interp_vulkan.cpp(480): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\interp_vulkan.cpp(485): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  deconvolutiondepthwise.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  deconvolutiondepthwise_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\deconvolutiondepthwise_vulkan.cpp(248): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\deconvolutiondepthwise_vulkan.cpp(253): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\deconvolutiondepthwise_vulkan.cpp(294): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\deconvolutiondepthwise_vulkan.cpp(299): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\deconvolutiondepthwise_vulkan.cpp(641): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\deconvolutiondepthwise_vulkan.cpp(646): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\deconvolutiondepthwise_vulkan.cpp(799): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\deconvolutiondepthwise_vulkan.cpp(804): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  shufflechannel.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  shufflechannel_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\shufflechannel_vulkan.cpp(73): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\shufflechannel_vulkan.cpp(78): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\shufflechannel_vulkan.cpp(150): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\shufflechannel_vulkan.cpp(155): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  instancenorm.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  instancenorm_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(197): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(202): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(276): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(439): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(443): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(472): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(476): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(499): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(500): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(527): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(532): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(565): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(569): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(592): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(593): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(635): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(737): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp(828): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  clip.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  clip_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  clip_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\clip_vulkan.cpp(66): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\clip_vulkan.cpp(141): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  reorg.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  reorg_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\reorg_vulkan.cpp(91): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\reorg_vulkan.cpp(96): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\reorg_vulkan.cpp(215): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\reorg_vulkan.cpp(220): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  yolodetectionoutput.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  quantize.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  dequantize.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  yolov3detectionoutput.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  yolov3detectionoutput_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\x86\yolov3detectionoutput_x86.cpp(80): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\x86\yolov3detectionoutput_x86.cpp(80): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+  psroipooling.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  roialign.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  roialign_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  packing.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  packing_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  packing_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\packing_vulkan.cpp(99): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\packing_vulkan.cpp(371): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\packing_vulkan.cpp(376): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\packing_vulkan.cpp(660): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\packing_vulkan.cpp(800): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  requantize.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  cast.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  cast_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  cast_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\cast_vulkan.cpp(82): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\cast_vulkan.cpp(87): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\cast_vulkan.cpp(258): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\cast_vulkan.cpp(263): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  hardsigmoid.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  hardsigmoid_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  hardsigmoid_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\hardsigmoid_vulkan.cpp(66): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\hardsigmoid_vulkan.cpp(141): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  selu.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  hardswish.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  hardswish_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  hardswish_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\hardswish_vulkan.cpp(66): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\hardswish_vulkan.cpp(141): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  noop.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  pixelshuffle.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  pixelshuffle_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\pixelshuffle_vulkan.cpp(91): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\pixelshuffle_vulkan.cpp(96): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\pixelshuffle_vulkan.cpp(223): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\pixelshuffle_vulkan.cpp(228): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  deepcopy.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  deepcopy_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\deepcopy_vulkan.cpp(79): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\deepcopy_vulkan.cpp(159): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  mish.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  mish_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  mish_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\mish_vulkan.cpp(63): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\mish_vulkan.cpp(138): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  statisticspooling.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  swish.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  swish_x86.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  swish_vulkan.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\swish_vulkan.cpp(63): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\src\layer\vulkan\swish_vulkan.cpp(138): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  gemm.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  groupnorm.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  layernorm.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  softplus.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  batchnorm_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  bias_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  concat_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\concat_x86_avx2.cpp(405): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  convolution_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  crop_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  dropout_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  eltwise_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  flatten_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  innerproduct_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  lrn_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  pooling_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  prelu_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  relu_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  reshape_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  scale_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  sigmoid_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  slice_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\slice_x86_avx2.cpp(52): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\slice_x86_avx2.cpp(93): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\slice_x86_avx2.cpp(249): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\slice_x86_avx2.cpp(289): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\slice_x86_avx2.cpp(429): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\slice_x86_avx2.cpp(453): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\slice_x86_avx2.cpp(496): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  tanh_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  lstm_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  binaryop_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  convolutiondepthwise_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  padding_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  clip_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  yolov3detectionoutput_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\yolov3detectionoutput_x86_avx2.cpp(80): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\yolov3detectionoutput_x86_avx2.cpp(80): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+  roialign_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  packing_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  cast_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  hardsigmoid_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  hardswish_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  mish_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  swish_x86_avx2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  ncnn.vcxproj -> F:\pytorch2ncnn\ncnn\build_cmakegui\src\Release\ncnn.lib

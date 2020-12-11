@@ -1,0 +1,4 @@
+﻿  Building Custom Rule F:/pytorch2ncnn/ncnn/glslang/OGLCompilersDLL/CMakeLists.txt
+  CMake does not need to re-run because F:/pytorch2ncnn/ncnn/build_cmakegui/glslang/OGLCompilersDLL/CMakeFiles/generate.stamp is up-to-date.
+  InitializeDll.cpp
+  OGLCompiler.vcxproj -> F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\OGLCompilersDLL\Release\OGLCompiler.lib

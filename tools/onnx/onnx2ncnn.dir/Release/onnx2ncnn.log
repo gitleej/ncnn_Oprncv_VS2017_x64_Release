@@ -1,0 +1,7 @@
+﻿  Running cpp protocol buffer compiler on onnx.proto
+  Building Custom Rule F:/pytorch2ncnn/ncnn/tools/onnx/CMakeLists.txt
+  CMake does not need to re-run because F:/pytorch2ncnn/ncnn/build_cmakegui/tools/onnx/CMakeFiles/generate.stamp is up-to-date.
+  onnx2ncnn.cpp
+  onnx.pb.cc
+  正在生成代码...
+  onnx2ncnn.vcxproj -> F:\pytorch2ncnn\ncnn\build_cmakegui\tools\onnx\Release\onnx2ncnn.exe

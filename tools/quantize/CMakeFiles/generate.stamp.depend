@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+D:/Software/CMake/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+D:/Software/CMake/share/cmake-3.13/Modules/FindPackageMessage.cmake
+F:/pytorch2ncnn/OpenCV320_staticlib/x64/vc14/staticlib/OpenCVConfig-version.cmake
+F:/pytorch2ncnn/OpenCV320_staticlib/x64/vc14/staticlib/OpenCVConfig.cmake
+F:/pytorch2ncnn/OpenCV320_staticlib/x64/vc14/staticlib/OpenCVModules-debug.cmake
+F:/pytorch2ncnn/OpenCV320_staticlib/x64/vc14/staticlib/OpenCVModules-release.cmake
+F:/pytorch2ncnn/OpenCV320_staticlib/x64/vc14/staticlib/OpenCVModules.cmake
+F:/pytorch2ncnn/ncnn/tools/quantize/CMakeLists.txt

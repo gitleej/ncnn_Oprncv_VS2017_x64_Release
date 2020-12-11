@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\allocator.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\benchmark.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\blob.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\c_api.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\command.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\cpu.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\datareader.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\gpu.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\mat.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\mat_pixel.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\mat_pixel_affine.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\mat_pixel_resize.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\mat_pixel_rotate.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\modelbin.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\net.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\option.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\paramdict.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\pipeline.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\pipelinecache.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\simpleocv.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\simpleomp.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\simplestl.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\absval.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\absval_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\batchnorm.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\batchnorm_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\batchnorm_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\batchnorm_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\bias.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\bias_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\bias_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\bnll.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\concat.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\concat_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\concat_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\concat_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\convolution.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\convolution_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolution_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\convolution_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\crop.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\crop_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\crop_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\crop_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\deconvolution.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\deconvolution_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\dropout.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\dropout_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\dropout_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\dropout_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\eltwise.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\eltwise_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\eltwise_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\eltwise_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\elu.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\embed.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\exp.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\flatten.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\flatten_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\flatten_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\flatten_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\innerproduct.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\innerproduct_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\innerproduct_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\innerproduct_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\input.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\log.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\lrn.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\lrn_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\lrn_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\lrn_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\memorydata.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\memorydata_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\mvn.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\pooling.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\pooling_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\pooling_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\pooling_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\power.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\prelu.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\prelu_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\prelu_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\prelu_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\proposal.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\reduction.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\relu.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\relu_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\relu_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\relu_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\reshape.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\reshape_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\reshape_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\reshape_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\roipooling.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\scale.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\scale_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\scale_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\scale_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\sigmoid.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\sigmoid_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\sigmoid_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\sigmoid_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\slice.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\slice_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\slice_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\slice_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\softmax.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\softmax_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\split.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\tanh.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\tanh_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\tanh_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\tanh_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\threshold.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\lstm.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\lstm_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\lstm_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\binaryop.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\binaryop_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\binaryop_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\binaryop_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\unaryop.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\unaryop_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\convolutiondepthwise.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\convolutiondepthwise_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\convolutiondepthwise_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\convolutiondepthwise_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\padding.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\padding_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\padding_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\padding_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\squeeze.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\expanddims.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\normalize.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\normalize_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\permute.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\permute_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\priorbox.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\priorbox_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\detectionoutput.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\interp.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\interp_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\deconvolutiondepthwise.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\deconvolutiondepthwise_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\shufflechannel.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\shufflechannel_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\instancenorm.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\instancenorm_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\clip.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\clip_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\clip_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\clip_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\reorg.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\reorg_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\yolodetectionoutput.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\quantize.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\dequantize.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\yolov3detectionoutput.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\yolov3detectionoutput_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\yolov3detectionoutput_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\psroipooling.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\roialign.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\roialign_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\roialign_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\packing.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\packing_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\packing_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\packing_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\requantize.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\cast.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\cast_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\cast_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\cast_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\hardsigmoid.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\hardsigmoid_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\hardsigmoid_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\hardsigmoid_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\selu.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\hardswish.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\hardswish_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\hardswish_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\hardswish_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\noop.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\pixelshuffle.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\pixelshuffle_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\deepcopy.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\deepcopy_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\mish.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\mish_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\mish_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\mish_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\statisticspooling.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\swish.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\x86\swish_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\vulkan\swish_vulkan.cpp">
+      <Filter>sources\layers\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\swish_x86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\gemm.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\groupnorm.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\layernorm.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\src\layer\softplus.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\batchnorm_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\bias_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\concat_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\convolution_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\crop_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\dropout_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\eltwise_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\flatten_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\innerproduct_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\lrn_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\pooling_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\prelu_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\relu_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\reshape_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\scale_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\sigmoid_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\slice_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\tanh_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\lstm_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\binaryop_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\convolutiondepthwise_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\padding_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\clip_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\yolov3detectionoutput_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\roialign_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\packing_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\cast_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\hardsigmoid_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\hardswish_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\mish_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\layer\x86\swish_x86_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\batchnorm_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\batchnorm_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\bias_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\bias_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\concat_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\concat_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\convolution_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\convolution_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\crop_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\crop_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\dropout_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\dropout_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\eltwise_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\eltwise_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\flatten_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\flatten_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\innerproduct_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\innerproduct_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\lrn_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\lrn_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\pooling_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\pooling_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\prelu_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\prelu_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\relu_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\relu_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\reshape_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\reshape_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\scale_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\scale_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\sigmoid_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\sigmoid_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\slice_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\slice_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\tanh_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\tanh_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\lstm_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\lstm_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\binaryop_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\binaryop_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\convolutiondepthwise_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\convolutiondepthwise_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\padding_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\padding_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\clip_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\clip_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\yolov3detectionoutput_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\yolov3detectionoutput_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\roialign_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\roialign_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\packing_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\packing_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\cast_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\cast_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\hardsigmoid_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\hardsigmoid_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\hardswish_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\hardswish_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\mish_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\mish_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\swish_x86_avx2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\062bfc8371d6b3920b7dcf0bfe12a911\swish_x86_avx2.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0A21B8F6-AE6A-3ED8-ACD0-42C7F1CCFB7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DD71769B-63F7-3C41-B136-BEEA89B02705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C44FC30A-B92E-38D0-81EE-54033397CE9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{3A83FC6E-345B-3044-A8C3-AE2A090FB15F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\layers">
+      <UniqueIdentifier>{64FA855F-21C2-3937-B14A-74B4602F23C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\layers\vulkan">
+      <UniqueIdentifier>{7840F78C-F784-3192-854B-CFD5B5DE2B1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\layers\x86">
+      <UniqueIdentifier>{1266ABF9-B257-39C4-BC07-806F9144C049}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

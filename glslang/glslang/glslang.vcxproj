@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{412E8691-3F89-346F-9581-3F7A13EC146E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>glslang</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glslang.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glslangd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glslang.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glslang</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glslang.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glslang</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glslang.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glslang</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\pytorch2ncnn\ncnn\glslang\glslang\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GLSLANG_OSINCLUDE_WIN32;ENABLE_OPT=0;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GLSLANG_OSINCLUDE_WIN32;ENABLE_OPT=0;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\pytorch2ncnn\ncnn\glslang\glslang\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\pytorch2ncnn\ncnn\glslang\glslang\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\pytorch2ncnn\ncnn\glslang\glslang\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLSLANG_OSINCLUDE_WIN32;ENABLE_OPT=0;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLSLANG_OSINCLUDE_WIN32;ENABLE_OPT=0;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\pytorch2ncnn\ncnn\glslang\glslang\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\pytorch2ncnn\ncnn\glslang\glslang\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\pytorch2ncnn\ncnn\glslang\glslang\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLSLANG_OSINCLUDE_WIN32;ENABLE_OPT=0;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLSLANG_OSINCLUDE_WIN32;ENABLE_OPT=0;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\pytorch2ncnn\ncnn\glslang\glslang\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\pytorch2ncnn\ncnn\glslang\glslang\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\pytorch2ncnn\ncnn\glslang\glslang\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLSLANG_OSINCLUDE_WIN32;ENABLE_OPT=0;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLSLANG_OSINCLUDE_WIN32;ENABLE_OPT=0;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\pytorch2ncnn\ncnn\glslang\glslang\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\pytorch2ncnn\ncnn\glslang\glslang\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\glslang\glslang\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/pytorch2ncnn/ncnn/glslang/glslang/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe -SF:/pytorch2ncnn/ncnn -BF:/pytorch2ncnn/ncnn/build_cmakegui --check-stamp-file F:/pytorch2ncnn/ncnn/build_cmakegui/glslang/glslang/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/pytorch2ncnn/ncnn/glslang/glslang/CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\glslang\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\glslang\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/pytorch2ncnn/ncnn/glslang/glslang/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe -SF:/pytorch2ncnn/ncnn -BF:/pytorch2ncnn/ncnn/build_cmakegui --check-stamp-file F:/pytorch2ncnn/ncnn/build_cmakegui/glslang/glslang/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/pytorch2ncnn/ncnn/glslang/glslang/CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\glslang\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\glslang\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/pytorch2ncnn/ncnn/glslang/glslang/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe -SF:/pytorch2ncnn/ncnn -BF:/pytorch2ncnn/ncnn/build_cmakegui --check-stamp-file F:/pytorch2ncnn/ncnn/build_cmakegui/glslang/glslang/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/pytorch2ncnn/ncnn/glslang/glslang/CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\glslang\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\glslang\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/pytorch2ncnn/ncnn/glslang/glslang/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe -SF:/pytorch2ncnn/ncnn -BF:/pytorch2ncnn/ncnn/build_cmakegui --check-stamp-file F:/pytorch2ncnn/ncnn/build_cmakegui/glslang/glslang/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/pytorch2ncnn/ncnn/glslang/glslang/CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\glslang\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\glslang\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\glslang.m4" />
+    <None Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\glslang.y" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\glslang_tab.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\attribute.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\Constant.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\iomapper.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\InfoSink.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\Initialize.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\IntermTraverse.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\Intermediate.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\ParseContextBase.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\ParseHelper.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\PoolAlloc.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\RemoveTree.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\Scan.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\ShaderLang.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\SymbolTable.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\Versions.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\intermOut.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\limits.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\linkValidate.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\parseConst.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\reflection.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\preprocessor\Pp.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\preprocessor\PpAtom.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\preprocessor\PpContext.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\preprocessor\PpScanner.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\preprocessor\PpTokens.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\propagateNoContraction.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\GenericCodeGen\CodeGen.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\GenericCodeGen\Link.cpp" />
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\glslang\glslang\CInterface\glslang_c_interface.cpp" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\Public\ShaderLang.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\Include\arrays.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\Include\BaseTypes.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\Include\Common.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\Include\ConstantUnion.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\Include\glslang_c_interface.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\Include\glslang_c_shader_types.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\Include\InfoSink.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\Include\InitializeGlobals.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\Include\intermediate.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\Include\PoolAlloc.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\Include\ResourceLimits.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\Include\revision.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\Include\ShHandle.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\Include\Types.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\attribute.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\glslang_tab.cpp.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\gl_types.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\Initialize.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\iomapper.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\LiveTraverser.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\localintermediate.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\ParseHelper.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\reflection.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\RemoveTree.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\Scan.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\ScanContext.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\SymbolTable.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\Versions.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\parseVersions.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\propagateNoContraction.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\preprocessor\PpContext.h" />
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\glslang\glslang\MachineIndependent\preprocessor\PpTokens.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\ZERO_CHECK.vcxproj">
+      <Project>{638F879A-4186-31DB-8A8E-2FC4AC3D80BE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\OGLCompilersDLL\OGLCompiler.vcxproj">
+      <Project>{6A24F1E1-0907-3223-8543-A95FC1BDFABF}</Project>
+      <Name>OGLCompiler</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\OSDependent\Windows\OSDependent.vcxproj">
+      <Project>{872C4012-48F4-3E8F-A836-80DD34A89D14}</Project>
+      <Name>OSDependent</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

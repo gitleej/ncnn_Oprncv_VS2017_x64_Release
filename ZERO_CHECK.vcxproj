@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{638F879A-4186-31DB-8A8E-2FC4AC3D80BE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\e2ad87cec7cd0f4bfba9697448ef52ed\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe -SF:/pytorch2ncnn/ncnn -BF:/pytorch2ncnn/ncnn/build_cmakegui --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/pytorch2ncnn/ncnn/build_cmakegui/ncnn.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/pytorch2ncnn/ncnn/build_cmakegui/CMakeFiles/e2ad87cec7cd0f4bfba9697448ef52ed/generate.stamp.rule;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeDependentOption.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeParseArguments.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindOpenMP.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindProtobuf.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindVulkan.cmake;D:\Software\CMake\share\cmake-3.13\Modules\GNUInstallDirs.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\Software\CMake\share\cmake-3.13\Modules\SelectLibraryConfigurations.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVConfig-version.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVConfig.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVModules-debug.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVModules-release.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVModules.cmake;F:\pytorch2ncnn\ncnn\CMakeLists.txt;F:\pytorch2ncnn\ncnn\benchmark\CMakeLists.txt;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeCCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeSystem.cmake;F:\pytorch2ncnn\ncnn\cmake\ncnnConfig.cmake.in;F:\pytorch2ncnn\ncnn\cmake\ncnn_add_layer.cmake;F:\pytorch2ncnn\ncnn\cmake\ncnn_add_shader.cmake;F:\pytorch2ncnn\ncnn\cmake\ncnn_generate_shader_spv_header.cmake;F:\pytorch2ncnn\ncnn\examples\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\ChooseMSVCCRT.cmake;F:\pytorch2ncnn\ncnn\glslang\OGLCompilersDLL\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\SPIRV\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\glslang\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\glslang\OSDependent\Windows\CMakeLists.txt;F:\pytorch2ncnn\ncnn\src\CMakeLists.txt;F:\pytorch2ncnn\ncnn\src\layer_declaration.h.in;F:\pytorch2ncnn\ncnn\src\layer_registry.h.in;F:\pytorch2ncnn\ncnn\src\layer_registry_arm82.h.in;F:\pytorch2ncnn\ncnn\src\layer_registry_avx2.h.in;F:\pytorch2ncnn\ncnn\src\layer_shader_registry.h.in;F:\pytorch2ncnn\ncnn\src\layer_shader_spv_data.h.in;F:\pytorch2ncnn\ncnn\src\layer_shader_type_enum.h.in;F:\pytorch2ncnn\ncnn\src\layer_type_enum.h.in;F:\pytorch2ncnn\ncnn\src\platform.h.in;F:\pytorch2ncnn\ncnn\tools\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\caffe\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\darknet\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\mxnet\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\onnx\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\quantize\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\OSDependent\Windows\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\OGLCompilersDLL\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\SPIRV\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\src\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\benchmark\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\examples\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\caffe\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\mxnet\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\onnx\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\darknet\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\quantize\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe -SF:/pytorch2ncnn/ncnn -BF:/pytorch2ncnn/ncnn/build_cmakegui --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/pytorch2ncnn/ncnn/build_cmakegui/ncnn.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/pytorch2ncnn/ncnn/build_cmakegui/CMakeFiles/e2ad87cec7cd0f4bfba9697448ef52ed/generate.stamp.rule;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeDependentOption.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeParseArguments.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindOpenMP.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindProtobuf.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindVulkan.cmake;D:\Software\CMake\share\cmake-3.13\Modules\GNUInstallDirs.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\Software\CMake\share\cmake-3.13\Modules\SelectLibraryConfigurations.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVConfig-version.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVConfig.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVModules-debug.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVModules-release.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVModules.cmake;F:\pytorch2ncnn\ncnn\CMakeLists.txt;F:\pytorch2ncnn\ncnn\benchmark\CMakeLists.txt;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeCCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeSystem.cmake;F:\pytorch2ncnn\ncnn\cmake\ncnnConfig.cmake.in;F:\pytorch2ncnn\ncnn\cmake\ncnn_add_layer.cmake;F:\pytorch2ncnn\ncnn\cmake\ncnn_add_shader.cmake;F:\pytorch2ncnn\ncnn\cmake\ncnn_generate_shader_spv_header.cmake;F:\pytorch2ncnn\ncnn\examples\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\ChooseMSVCCRT.cmake;F:\pytorch2ncnn\ncnn\glslang\OGLCompilersDLL\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\SPIRV\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\glslang\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\glslang\OSDependent\Windows\CMakeLists.txt;F:\pytorch2ncnn\ncnn\src\CMakeLists.txt;F:\pytorch2ncnn\ncnn\src\layer_declaration.h.in;F:\pytorch2ncnn\ncnn\src\layer_registry.h.in;F:\pytorch2ncnn\ncnn\src\layer_registry_arm82.h.in;F:\pytorch2ncnn\ncnn\src\layer_registry_avx2.h.in;F:\pytorch2ncnn\ncnn\src\layer_shader_registry.h.in;F:\pytorch2ncnn\ncnn\src\layer_shader_spv_data.h.in;F:\pytorch2ncnn\ncnn\src\layer_shader_type_enum.h.in;F:\pytorch2ncnn\ncnn\src\layer_type_enum.h.in;F:\pytorch2ncnn\ncnn\src\platform.h.in;F:\pytorch2ncnn\ncnn\tools\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\caffe\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\darknet\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\mxnet\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\onnx\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\quantize\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\OSDependent\Windows\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\OGLCompilersDLL\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\SPIRV\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\src\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\benchmark\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\examples\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\caffe\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\mxnet\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\onnx\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\darknet\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\quantize\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe -SF:/pytorch2ncnn/ncnn -BF:/pytorch2ncnn/ncnn/build_cmakegui --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/pytorch2ncnn/ncnn/build_cmakegui/ncnn.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/pytorch2ncnn/ncnn/build_cmakegui/CMakeFiles/e2ad87cec7cd0f4bfba9697448ef52ed/generate.stamp.rule;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeDependentOption.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeParseArguments.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindOpenMP.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindProtobuf.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindVulkan.cmake;D:\Software\CMake\share\cmake-3.13\Modules\GNUInstallDirs.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\Software\CMake\share\cmake-3.13\Modules\SelectLibraryConfigurations.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVConfig-version.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVConfig.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVModules-debug.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVModules-release.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVModules.cmake;F:\pytorch2ncnn\ncnn\CMakeLists.txt;F:\pytorch2ncnn\ncnn\benchmark\CMakeLists.txt;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeCCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeSystem.cmake;F:\pytorch2ncnn\ncnn\cmake\ncnnConfig.cmake.in;F:\pytorch2ncnn\ncnn\cmake\ncnn_add_layer.cmake;F:\pytorch2ncnn\ncnn\cmake\ncnn_add_shader.cmake;F:\pytorch2ncnn\ncnn\cmake\ncnn_generate_shader_spv_header.cmake;F:\pytorch2ncnn\ncnn\examples\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\ChooseMSVCCRT.cmake;F:\pytorch2ncnn\ncnn\glslang\OGLCompilersDLL\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\SPIRV\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\glslang\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\glslang\OSDependent\Windows\CMakeLists.txt;F:\pytorch2ncnn\ncnn\src\CMakeLists.txt;F:\pytorch2ncnn\ncnn\src\layer_declaration.h.in;F:\pytorch2ncnn\ncnn\src\layer_registry.h.in;F:\pytorch2ncnn\ncnn\src\layer_registry_arm82.h.in;F:\pytorch2ncnn\ncnn\src\layer_registry_avx2.h.in;F:\pytorch2ncnn\ncnn\src\layer_shader_registry.h.in;F:\pytorch2ncnn\ncnn\src\layer_shader_spv_data.h.in;F:\pytorch2ncnn\ncnn\src\layer_shader_type_enum.h.in;F:\pytorch2ncnn\ncnn\src\layer_type_enum.h.in;F:\pytorch2ncnn\ncnn\src\platform.h.in;F:\pytorch2ncnn\ncnn\tools\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\caffe\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\darknet\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\mxnet\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\onnx\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\quantize\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\OSDependent\Windows\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\OGLCompilersDLL\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\SPIRV\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\src\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\benchmark\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\examples\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\caffe\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\mxnet\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\onnx\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\darknet\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\quantize\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe -SF:/pytorch2ncnn/ncnn -BF:/pytorch2ncnn/ncnn/build_cmakegui --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/pytorch2ncnn/ncnn/build_cmakegui/ncnn.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/pytorch2ncnn/ncnn/build_cmakegui/CMakeFiles/e2ad87cec7cd0f4bfba9697448ef52ed/generate.stamp.rule;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeDependentOption.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeParseArguments.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindOpenMP.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindProtobuf.cmake;D:\Software\CMake\share\cmake-3.13\Modules\FindVulkan.cmake;D:\Software\CMake\share\cmake-3.13\Modules\GNUInstallDirs.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\Software\CMake\share\cmake-3.13\Modules\SelectLibraryConfigurations.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVConfig-version.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVConfig.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVModules-debug.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVModules-release.cmake;F:\pytorch2ncnn\OpenCV320_staticlib\x64\vc14\staticlib\OpenCVModules.cmake;F:\pytorch2ncnn\ncnn\CMakeLists.txt;F:\pytorch2ncnn\ncnn\benchmark\CMakeLists.txt;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeCCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeSystem.cmake;F:\pytorch2ncnn\ncnn\cmake\ncnnConfig.cmake.in;F:\pytorch2ncnn\ncnn\cmake\ncnn_add_layer.cmake;F:\pytorch2ncnn\ncnn\cmake\ncnn_add_shader.cmake;F:\pytorch2ncnn\ncnn\cmake\ncnn_generate_shader_spv_header.cmake;F:\pytorch2ncnn\ncnn\examples\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\ChooseMSVCCRT.cmake;F:\pytorch2ncnn\ncnn\glslang\OGLCompilersDLL\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\SPIRV\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\glslang\CMakeLists.txt;F:\pytorch2ncnn\ncnn\glslang\glslang\OSDependent\Windows\CMakeLists.txt;F:\pytorch2ncnn\ncnn\src\CMakeLists.txt;F:\pytorch2ncnn\ncnn\src\layer_declaration.h.in;F:\pytorch2ncnn\ncnn\src\layer_registry.h.in;F:\pytorch2ncnn\ncnn\src\layer_registry_arm82.h.in;F:\pytorch2ncnn\ncnn\src\layer_registry_avx2.h.in;F:\pytorch2ncnn\ncnn\src\layer_shader_registry.h.in;F:\pytorch2ncnn\ncnn\src\layer_shader_spv_data.h.in;F:\pytorch2ncnn\ncnn\src\layer_shader_type_enum.h.in;F:\pytorch2ncnn\ncnn\src\layer_type_enum.h.in;F:\pytorch2ncnn\ncnn\src\platform.h.in;F:\pytorch2ncnn\ncnn\tools\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\caffe\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\darknet\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\mxnet\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\onnx\CMakeLists.txt;F:\pytorch2ncnn\ncnn\tools\quantize\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\OSDependent\Windows\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\OGLCompilersDLL\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\SPIRV\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\src\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\benchmark\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\examples\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\caffe\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\mxnet\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\onnx\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\darknet\CMakeFiles\generate.stamp;F:\pytorch2ncnn\ncnn\build_cmakegui\tools\quantize\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿  Building Custom Rule F:/pytorch2ncnn/ncnn/tools/CMakeLists.txt
+  CMake does not need to re-run because F:/pytorch2ncnn/ncnn/build_cmakegui/tools/CMakeFiles/generate.stamp is up-to-date.
+  ncnnoptimize.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(116): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(125): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(247): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(330): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(419): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(505): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(588): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(677): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(763): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(846): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(935): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(1021): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(1104): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(1187): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(1273): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(1341): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(1416): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(1491): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(1562): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(1633): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(1704): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(2034): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(2085): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(2095): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(2149): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(2264): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(2308): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(2349): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(2397): warning C4267: “参数”: 从“size_t”转换到“const _Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+F:\pytorch2ncnn\ncnn\tools\ncnnoptimize.cpp(2474): warning C4267: “参数”: 从“size_t”转换到“const _Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+  ncnnoptimize.vcxproj -> F:\pytorch2ncnn\ncnn\build_cmakegui\tools\Release\ncnnoptimize.exe

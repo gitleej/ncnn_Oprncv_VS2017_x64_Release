@@ -1,0 +1,6 @@
+﻿  Building Custom Rule F:/pytorch2ncnn/ncnn/tools/CMakeLists.txt
+  CMake does not need to re-run because F:/pytorch2ncnn/ncnn/build_cmakegui/tools/CMakeFiles/generate.stamp is up-to-date.
+  ncnn2mem.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  ncnn2mem.vcxproj -> F:\pytorch2ncnn\ncnn\build_cmakegui\tools\Release\ncnn2mem.exe

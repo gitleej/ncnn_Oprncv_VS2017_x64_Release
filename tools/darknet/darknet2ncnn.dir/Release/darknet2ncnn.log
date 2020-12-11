@@ -1,0 +1,4 @@
+﻿  Building Custom Rule F:/pytorch2ncnn/ncnn/tools/darknet/CMakeLists.txt
+  CMake does not need to re-run because F:/pytorch2ncnn/ncnn/build_cmakegui/tools/darknet/CMakeFiles/generate.stamp is up-to-date.
+  darknet2ncnn.cpp
+  darknet2ncnn.vcxproj -> F:\pytorch2ncnn\ncnn\build_cmakegui\tools\darknet\Release\darknet2ncnn.exe

@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AFB8CE74-CA4C-3519-BCF6-A547D1017229}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/pytorch2ncnn/ncnn/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe -SF:/pytorch2ncnn/ncnn -BF:/pytorch2ncnn/ncnn/build_cmakegui --check-stamp-file F:/pytorch2ncnn/ncnn/build_cmakegui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/pytorch2ncnn/ncnn/CMakeLists.txt;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;F:\pytorch2ncnn\ncnn\CMakeLists.txt;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeCCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeSystem.cmake;F:\pytorch2ncnn\ncnn\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/pytorch2ncnn/ncnn/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe -SF:/pytorch2ncnn/ncnn -BF:/pytorch2ncnn/ncnn/build_cmakegui --check-stamp-file F:/pytorch2ncnn/ncnn/build_cmakegui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/pytorch2ncnn/ncnn/CMakeLists.txt;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;F:\pytorch2ncnn\ncnn\CMakeLists.txt;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeCCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeSystem.cmake;F:\pytorch2ncnn\ncnn\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/pytorch2ncnn/ncnn/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe -SF:/pytorch2ncnn/ncnn -BF:/pytorch2ncnn/ncnn/build_cmakegui --check-stamp-file F:/pytorch2ncnn/ncnn/build_cmakegui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/pytorch2ncnn/ncnn/CMakeLists.txt;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;F:\pytorch2ncnn\ncnn\CMakeLists.txt;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeCCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeSystem.cmake;F:\pytorch2ncnn\ncnn\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/pytorch2ncnn/ncnn/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe -SF:/pytorch2ncnn/ncnn -BF:/pytorch2ncnn/ncnn/build_cmakegui --check-stamp-file F:/pytorch2ncnn/ncnn/build_cmakegui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/pytorch2ncnn/ncnn/CMakeLists.txt;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\Software\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;F:\pytorch2ncnn\ncnn\CMakeLists.txt;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeCCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\3.13.2\CMakeSystem.cmake;F:\pytorch2ncnn\ncnn\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\ZERO_CHECK.vcxproj">
+      <Project>{638F879A-4186-31DB-8A8E-2FC4AC3D80BE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\OGLCompilersDLL\OGLCompiler.vcxproj">
+      <Project>{6A24F1E1-0907-3223-8543-A95FC1BDFABF}</Project>
+      <Name>OGLCompiler</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\OSDependent\Windows\OSDependent.vcxproj">
+      <Project>{872C4012-48F4-3E8F-A836-80DD34A89D14}</Project>
+      <Name>OSDependent</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\SPIRV\SPIRV.vcxproj">
+      <Project>{6BDFFAB9-9824-36D8-A4CB-3E39A2F5F3E7}</Project>
+      <Name>SPIRV</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\benchmark\benchncnn.vcxproj">
+      <Project>{B6B06A77-7CCC-3879-A2FA-E609994C2AEB}</Project>
+      <Name>benchncnn</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\tools\caffe\caffe2ncnn.vcxproj">
+      <Project>{C7CAC867-1B61-3AA5-A5D3-0B6B2D5F4FB5}</Project>
+      <Name>caffe2ncnn</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\tools\darknet\darknet2ncnn.vcxproj">
+      <Project>{D2598A81-495C-3BC1-9723-14CEB152F180}</Project>
+      <Name>darknet2ncnn</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\fasterrcnn.vcxproj">
+      <Project>{DA09B441-06CC-32B6-BDAE-B23B635B5588}</Project>
+      <Name>fasterrcnn</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\glslang.vcxproj">
+      <Project>{412E8691-3F89-346F-9581-3F7A13EC146E}</Project>
+      <Name>glslang</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\mobilenetssd.vcxproj">
+      <Project>{59E0D756-B428-317F-851F-9E8B0F12CA9A}</Project>
+      <Name>mobilenetssd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\mobilenetv2ssdlite.vcxproj">
+      <Project>{924BAD2B-3EC3-3DFB-A446-A3F1D5F732E9}</Project>
+      <Name>mobilenetv2ssdlite</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\tools\mxnet\mxnet2ncnn.vcxproj">
+      <Project>{EB6AC398-208D-3851-9945-6048ADF9C2CB}</Project>
+      <Name>mxnet2ncnn</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\nanodet.vcxproj">
+      <Project>{96C26594-81DD-31E1-81C3-C57D9EBB0687}</Project>
+      <Name>nanodet</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\ncnn.vcxproj">
+      <Project>{07916B41-CDA1-38FA-8A39-1377C1D6A3CD}</Project>
+      <Name>ncnn</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\tools\quantize\ncnn2int8.vcxproj">
+      <Project>{7B1C9EA2-A226-34B7-BE40-D91E0CA18AD2}</Project>
+      <Name>ncnn2int8</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\tools\ncnn2mem.vcxproj">
+      <Project>{8F04BB6D-2C5B-3099-8C2A-26FD7E852FAD}</Project>
+      <Name>ncnn2mem</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\tools\quantize\ncnn2table.vcxproj">
+      <Project>{5C5EB48C-8D26-34DE-9FC2-A45CE7DF352F}</Project>
+      <Name>ncnn2table</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\tools\ncnnmerge.vcxproj">
+      <Project>{C7BFD533-76D1-3FB5-96D1-36019EAD3D7E}</Project>
+      <Name>ncnnmerge</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\tools\ncnnoptimize.vcxproj">
+      <Project>{A530A04F-F133-3BBA-9A1D-9A4F57DCE139}</Project>
+      <Name>ncnnoptimize</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\tools\onnx\onnx2ncnn.vcxproj">
+      <Project>{C5457E25-0E80-3AEE-AEDD-004AB3334C01}</Project>
+      <Name>onnx2ncnn</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\peleenetssd_seg.vcxproj">
+      <Project>{DD043B25-A3A0-39F1-A5BA-AF971585ADAF}</Project>
+      <Name>peleenetssd_seg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\retinaface.vcxproj">
+      <Project>{A74BD2C8-B42E-3AA3-A4FF-4DC8B4C1814D}</Project>
+      <Name>retinaface</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\rfcn.vcxproj">
+      <Project>{FF03F540-4285-3758-B856-B2630892C2D1}</Project>
+      <Name>rfcn</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\shufflenetv2.vcxproj">
+      <Project>{7F9E55E0-E328-3822-894F-CC60E856D1B9}</Project>
+      <Name>shufflenetv2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\simplepose.vcxproj">
+      <Project>{E9C83AFE-2E48-314C-B674-2FC61643BD47}</Project>
+      <Name>simplepose</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\squeezenet.vcxproj">
+      <Project>{E2A3C013-A915-3EFF-9FFD-394911FAA828}</Project>
+      <Name>squeezenet</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\squeezenet_c_api.vcxproj">
+      <Project>{77672FAB-6669-3602-9771-A005F3E65FAD}</Project>
+      <Name>squeezenet_c_api</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\squeezenetssd.vcxproj">
+      <Project>{21CCCD1E-C26B-3C1A-A0CF-427E60A3472B}</Project>
+      <Name>squeezenetssd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\yolact.vcxproj">
+      <Project>{BCD23FC1-C90A-3162-9342-BAC3691B3B57}</Project>
+      <Name>yolact</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\yolov2.vcxproj">
+      <Project>{42566663-6A81-3A96-921E-DE89EC620E1C}</Project>
+      <Name>yolov2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\yolov3.vcxproj">
+      <Project>{0295498D-00FF-360C-9501-B727D46D2217}</Project>
+      <Name>yolov3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\yolov4.vcxproj">
+      <Project>{8E83DFE2-2853-3E69-914D-DB545CD95157}</Project>
+      <Name>yolov4</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\pytorch2ncnn\ncnn\build_cmakegui\examples\yolov5.vcxproj">
+      <Project>{2F12F44E-5436-32E0-A4AC-C26A053489B7}</Project>
+      <Name>yolov5</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

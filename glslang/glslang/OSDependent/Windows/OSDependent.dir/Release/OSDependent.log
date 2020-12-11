@@ -1,0 +1,4 @@
+﻿  Building Custom Rule F:/pytorch2ncnn/ncnn/glslang/glslang/OSDependent/Windows/CMakeLists.txt
+  CMake does not need to re-run because F:/pytorch2ncnn/ncnn/build_cmakegui/glslang/glslang/OSDependent/Windows/CMakeFiles/generate.stamp is up-to-date.
+  ossource.cpp
+  OSDependent.vcxproj -> F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\glslang\OSDependent\Windows\Release\OSDependent.lib

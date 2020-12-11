@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+D:/Software/CMake/share/cmake-3.13/Modules/CMakeParseArguments.cmake
+D:/Software/CMake/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+D:/Software/CMake/share/cmake-3.13/Modules/FindPackageMessage.cmake
+D:/Software/CMake/share/cmake-3.13/Modules/FindProtobuf.cmake
+D:/Software/CMake/share/cmake-3.13/Modules/SelectLibraryConfigurations.cmake
+F:/pytorch2ncnn/ncnn/tools/onnx/CMakeLists.txt

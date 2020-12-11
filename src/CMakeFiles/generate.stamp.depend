@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+D:/Software/CMake/share/cmake-3.13/Modules/CMakeParseImplicitLinkInfo.cmake
+D:/Software/CMake/share/cmake-3.13/Modules/FindOpenMP.cmake
+D:/Software/CMake/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+D:/Software/CMake/share/cmake-3.13/Modules/FindPackageMessage.cmake
+D:/Software/CMake/share/cmake-3.13/Modules/FindVulkan.cmake
+F:/pytorch2ncnn/ncnn/cmake/ncnnConfig.cmake.in
+F:/pytorch2ncnn/ncnn/cmake/ncnn_add_layer.cmake
+F:/pytorch2ncnn/ncnn/cmake/ncnn_add_shader.cmake
+F:/pytorch2ncnn/ncnn/cmake/ncnn_generate_shader_spv_header.cmake
+F:/pytorch2ncnn/ncnn/src/CMakeLists.txt
+F:/pytorch2ncnn/ncnn/src/layer_declaration.h.in
+F:/pytorch2ncnn/ncnn/src/layer_registry.h.in
+F:/pytorch2ncnn/ncnn/src/layer_registry_arm82.h.in
+F:/pytorch2ncnn/ncnn/src/layer_registry_avx2.h.in
+F:/pytorch2ncnn/ncnn/src/layer_shader_registry.h.in
+F:/pytorch2ncnn/ncnn/src/layer_shader_spv_data.h.in
+F:/pytorch2ncnn/ncnn/src/layer_shader_type_enum.h.in
+F:/pytorch2ncnn/ncnn/src/layer_type_enum.h.in
+F:/pytorch2ncnn/ncnn/src/platform.h.in

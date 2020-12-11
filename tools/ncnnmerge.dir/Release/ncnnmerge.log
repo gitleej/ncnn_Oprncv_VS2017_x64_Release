@@ -1,0 +1,4 @@
+﻿  Building Custom Rule F:/pytorch2ncnn/ncnn/tools/CMakeLists.txt
+  CMake does not need to re-run because F:/pytorch2ncnn/ncnn/build_cmakegui/tools/CMakeFiles/generate.stamp is up-to-date.
+  ncnnmerge.cpp
+  ncnnmerge.vcxproj -> F:\pytorch2ncnn\ncnn\build_cmakegui\tools\Release\ncnnmerge.exe

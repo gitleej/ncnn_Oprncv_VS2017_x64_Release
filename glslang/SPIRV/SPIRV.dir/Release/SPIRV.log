@@ -1,0 +1,12 @@
+﻿  Building Custom Rule F:/pytorch2ncnn/ncnn/glslang/SPIRV/CMakeLists.txt
+  CMake does not need to re-run because F:/pytorch2ncnn/ncnn/build_cmakegui/glslang/SPIRV/CMakeFiles/generate.stamp is up-to-date.
+  GlslangToSpv.cpp
+  InReadableOrder.cpp
+  Logger.cpp
+  SpvBuilder.cpp
+  SpvPostProcess.cpp
+  doc.cpp
+  SpvTools.cpp
+  disassemble.cpp
+  正在生成代码...
+  SPIRV.vcxproj -> F:\pytorch2ncnn\ncnn\build_cmakegui\glslang\SPIRV\Release\SPIRV.lib

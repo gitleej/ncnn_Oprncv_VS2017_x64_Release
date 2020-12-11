@@ -1,0 +1,11 @@
+﻿  Building Custom Rule F:/pytorch2ncnn/ncnn/examples/CMakeLists.txt
+  CMake does not need to re-run because F:/pytorch2ncnn/ncnn/build_cmakegui/examples/CMakeFiles/generate.stamp is up-to-date.
+  shufflenetv2.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\pytorch2ncnn\OpenCV320_staticlib\include\opencv2/core/mat.hpp(2585): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\pytorch2ncnn\OpenCV320_staticlib\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\pytorch2ncnn\OpenCV320_staticlib\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\pytorch2ncnn\OpenCV320_staticlib\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\pytorch2ncnn\ncnn\examples\shufflenetv2.cpp(74): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  shufflenetv2.vcxproj -> F:\pytorch2ncnn\ncnn\build_cmakegui\examples\Release\shufflenetv2.exe

@@ -1,0 +1,881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\absval.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\absval_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\absval_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\batchnorm.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\batchnorm_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\batchnorm_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\concat.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\concat_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\concat_pack4to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\concat_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\concat_pack8to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\concat_pack8to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_1x1s1d1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_pack1to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_pack1to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_pack4_1x1s1d1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_pack4_3x3s1d1_winograd23_gemm.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_pack4_3x3s1d1_winograd23_transform_input.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_pack4_3x3s1d1_winograd23_transform_output.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_pack4to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_pack4to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_pack8_1x1s1d1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_pack8_3x3s1d1_winograd23_gemm.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_pack8_3x3s1d1_winograd23_transform_input.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_pack8_3x3s1d1_winograd23_transform_output.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_pack8to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolution_pack8to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\crop.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\crop_pack1to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\crop_pack1to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\crop_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\crop_pack4to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\crop_pack4to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\crop_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\crop_pack8to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\crop_pack8to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolution.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolution_pack1to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolution_pack1to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolution_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolution_pack4to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolution_pack4to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolution_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolution_pack8to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolution_pack8to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\dropout.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\dropout_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\dropout_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\eltwise.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\eltwise_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\eltwise_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\flatten.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\flatten_pack1to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\flatten_pack1to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\flatten_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\flatten_pack4to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\flatten_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\innerproduct.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\innerproduct_pack1to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\innerproduct_pack1to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\innerproduct_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\innerproduct_pack4to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\innerproduct_pack4to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\innerproduct_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\innerproduct_pack8to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\innerproduct_pack8to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\lrn_norm.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\lrn_norm_across_channel_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\lrn_norm_across_channel_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\lrn_norm_within_channel_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\lrn_norm_within_channel_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\lrn_square_pad.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\lrn_square_pad_across_channel_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\lrn_square_pad_across_channel_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\lrn_square_pad_within_channel_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\lrn_square_pad_within_channel_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\pooling.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\pooling_global.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\pooling_global_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\pooling_global_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\pooling_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\pooling_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\prelu.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\prelu_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\prelu_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\relu.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\relu_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\relu_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\reshape.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\reshape_pack1to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\reshape_pack1to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\reshape_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\reshape_pack4to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\reshape_pack4to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\reshape_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\reshape_pack8to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\reshape_pack8to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\scale.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\scale_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\scale_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\sigmoid.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\sigmoid_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\sigmoid_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\slice.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\slice_pack1to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\slice_pack1to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\slice_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\slice_pack4to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\slice_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\softmax_div_sum.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\softmax_div_sum_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\softmax_div_sum_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\softmax_exp_sub_max.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\softmax_exp_sub_max_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\softmax_exp_sub_max_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\softmax_reduce_max.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\softmax_reduce_max_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\softmax_reduce_max_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\softmax_reduce_sum.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\softmax_reduce_sum_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\softmax_reduce_sum_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\tanh.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\tanh_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\tanh_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\binaryop.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\binaryop_broadcast.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\binaryop_broadcast_a1_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\binaryop_broadcast_a1_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\binaryop_broadcast_b1_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\binaryop_broadcast_b1_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\binaryop_broadcast_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\binaryop_broadcast_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\binaryop_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\binaryop_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\unaryop.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\unaryop_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\unaryop_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolutiondepthwise.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolutiondepthwise_group.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolutiondepthwise_group_pack1to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolutiondepthwise_group_pack1to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolutiondepthwise_group_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolutiondepthwise_group_pack4to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolutiondepthwise_group_pack4to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolutiondepthwise_group_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolutiondepthwise_group_pack8to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolutiondepthwise_group_pack8to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolutiondepthwise_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convolutiondepthwise_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\padding.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\padding_pack1to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\padding_pack1to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\padding_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\padding_pack4to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\padding_pack4to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\padding_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\padding_pack8to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\padding_pack8to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\normalize_coeffs.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\normalize_coeffs_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\normalize_coeffs_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\normalize_norm.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\normalize_norm_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\normalize_norm_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\normalize_reduce_sum4_fp16_to_fp32.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\normalize_reduce_sum4_fp16_to_fp32_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\normalize_reduce_sum4_fp16_to_fp32_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\normalize_reduce_sum4_fp32.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\normalize_reduce_sum4_fp32_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\normalize_reduce_sum4_fp32_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\permute.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\permute_pack1to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\permute_pack1to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\permute_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\permute_pack4to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\permute_pack4to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\permute_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\permute_pack8to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\permute_pack8to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\priorbox.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\priorbox_mxnet.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\interp.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\interp_bicubic.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\interp_bicubic_coeffs.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\interp_bicubic_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\interp_bicubic_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\interp_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\interp_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolutiondepthwise.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolutiondepthwise_group.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolutiondepthwise_group_pack1to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolutiondepthwise_group_pack1to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolutiondepthwise_group_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolutiondepthwise_group_pack4to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolutiondepthwise_group_pack4to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolutiondepthwise_group_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolutiondepthwise_group_pack8to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolutiondepthwise_group_pack8to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolutiondepthwise_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deconvolutiondepthwise_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\shufflechannel.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\shufflechannel_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\shufflechannel_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_coeffs.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_coeffs_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_coeffs_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_norm.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_norm_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_norm_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_reduce_mean.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_reduce_mean_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_reduce_mean_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_reduce_sum4_fp16_to_fp32.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_reduce_sum4_fp16_to_fp32_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_reduce_sum4_fp16_to_fp32_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_reduce_sum4_fp32.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_reduce_sum4_fp32_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_reduce_sum4_fp32_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_sub_mean_square.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_sub_mean_square_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\instancenorm_sub_mean_square_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\clip.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\clip_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\clip_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\reorg.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\reorg_pack1to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\reorg_pack1to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\reorg_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\reorg_pack4to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\reorg_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_fp16_to_fp32.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_fp32_to_fp16.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack1to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack1to4_fp16_to_fp32.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack1to4_fp32_to_fp16.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack1to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack1to8_fp16_to_fp32.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack1to8_fp32_to_fp16.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack4_fp16_to_fp32.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack4_fp32_to_fp16.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack4to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack4to1_fp16_to_fp32.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack4to1_fp32_to_fp16.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack4to8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack4to8_fp16_to_fp32.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack4to8_fp32_to_fp16.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack8_fp16_to_fp32.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack8_fp32_to_fp16.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack8to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack8to1_fp16_to_fp32.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack8to1_fp32_to_fp16.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack8to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack8to4_fp16_to_fp32.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\packing_pack8to4_fp32_to_fp16.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\cast_fp16_to_fp32.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\cast_fp16_to_fp32_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\cast_fp16_to_fp32_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\cast_fp32_to_fp16.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\cast_fp32_to_fp16_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\cast_fp32_to_fp16_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\hardsigmoid.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\hardsigmoid_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\hardsigmoid_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\hardswish.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\hardswish_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\hardswish_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\pixelshuffle.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\pixelshuffle_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\pixelshuffle_pack4to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\pixelshuffle_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\pixelshuffle_pack8to1.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\pixelshuffle_pack8to4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deepcopy.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deepcopy_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\deepcopy_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\mish.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\mish_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\mish_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\swish.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\swish_pack4.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\swish_pack8.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\4b66458870bdafdeecac1624702c22e2\convert_ycbcr.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\ad92fc6571bcac2b12c054b467a388e6\ncnn-generate-spirv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\pytorch2ncnn\ncnn\build_cmakegui\src\CMakeFiles\ncnn-generate-spirv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0A21B8F6-AE6A-3ED8-ACD0-42C7F1CCFB7D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

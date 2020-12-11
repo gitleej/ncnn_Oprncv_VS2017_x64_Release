@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\c71d848eea575642874b4c3face427e5\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0A21B8F6-AE6A-3ED8-ACD0-42C7F1CCFB7D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

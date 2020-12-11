@@ -1,0 +1,6 @@
+﻿  Building Custom Rule F:/pytorch2ncnn/ncnn/tools/quantize/CMakeLists.txt
+  CMake does not need to re-run because F:/pytorch2ncnn/ncnn/build_cmakegui/tools/quantize/CMakeFiles/generate.stamp is up-to-date.
+  ncnn2int8.cpp
+f:\pytorch2ncnn\ncnn\src\mat.h(1835): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+f:\pytorch2ncnn\ncnn\src\mat.h(2233): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  ncnn2int8.vcxproj -> F:\pytorch2ncnn\ncnn\build_cmakegui\tools\quantize\Release\ncnn2int8.exe

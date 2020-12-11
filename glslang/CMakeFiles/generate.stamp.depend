@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/Software/CMake/share/cmake-3.13/Modules/CMakeDependentOption.cmake
+D:/Software/CMake/share/cmake-3.13/Modules/GNUInstallDirs.cmake
+F:/pytorch2ncnn/ncnn/glslang/CMakeLists.txt
+F:/pytorch2ncnn/ncnn/glslang/ChooseMSVCCRT.cmake

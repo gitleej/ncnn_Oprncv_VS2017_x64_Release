@@ -1,0 +1,7 @@
+﻿  Running cpp protocol buffer compiler on caffe.proto
+  Building Custom Rule F:/pytorch2ncnn/ncnn/tools/caffe/CMakeLists.txt
+  CMake does not need to re-run because F:/pytorch2ncnn/ncnn/build_cmakegui/tools/caffe/CMakeFiles/generate.stamp is up-to-date.
+  caffe2ncnn.cpp
+  caffe.pb.cc
+  正在生成代码...
+  caffe2ncnn.vcxproj -> F:\pytorch2ncnn\ncnn\build_cmakegui\tools\caffe\Release\caffe2ncnn.exe

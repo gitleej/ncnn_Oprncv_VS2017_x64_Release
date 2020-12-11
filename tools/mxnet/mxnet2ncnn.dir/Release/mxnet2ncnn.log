@@ -1,0 +1,15 @@
+﻿  Building Custom Rule F:/pytorch2ncnn/ncnn/tools/mxnet/CMakeLists.txt
+  CMake does not need to re-run because F:/pytorch2ncnn/ncnn/build_cmakegui/tools/mxnet/CMakeFiles/generate.stamp is up-to-date.
+  mxnet2ncnn.cpp
+F:\pytorch2ncnn\ncnn\tools\mxnet\mxnet2ncnn.cpp(1015): warning C4267: “参数”: 从“size_t”转换到“const _Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+F:\pytorch2ncnn\ncnn\tools\mxnet\mxnet2ncnn.cpp(1027): warning C4267: “参数”: 从“size_t”转换到“const _Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+F:\pytorch2ncnn\ncnn\tools\mxnet\mxnet2ncnn.cpp(2709): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  mxnet2ncnn.vcxproj -> F:\pytorch2ncnn\ncnn\build_cmakegui\tools\mxnet\Release\mxnet2ncnn.exe

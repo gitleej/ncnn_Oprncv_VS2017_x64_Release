@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\tools\onnx\onnx2ncnn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pytorch2ncnn\ncnn\build_cmakegui\tools\onnx\onnx.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\pytorch2ncnn\ncnn\build_cmakegui\tools\onnx\onnx.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\build_cmakegui\CMakeFiles\56015a1b9a8525282c101fe16a604639\onnx.pb.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\pytorch2ncnn\ncnn\tools\onnx\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0A21B8F6-AE6A-3ED8-ACD0-42C7F1CCFB7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DD71769B-63F7-3C41-B136-BEEA89B02705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C44FC30A-B92E-38D0-81EE-54033397CE9D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
